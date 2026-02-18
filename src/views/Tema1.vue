@@ -127,36 +127,85 @@
     p.mb-5 El siguiente ejemplo se centra en la sustitución de luminarias, una de las medidas de eficiencia más comunes, y muestra cómo se utiliza la Línea Base para cuantificar la oportunidad de ahorro.
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-0(data-aos="fade-left")
-          .row.justify-content-center.align-items.p-0(titulo="Contexto del caso (fase de recolección de datos)")
-            .col-lg-11.mb-0
-              h5.mb-4 Cálculo del Consumo Propuesto (C#[sub Propuesta])
-              p.mb-0 La potencia de la tecnología LED es P#[sub propuesta] = 30  W = 0.030 kW
-          .row.justify-content-center.align-items.p-0(titulo="Determinación de la línea base (consumo actual)")
-            .col-lg-11.mb-0
-              p.mb-0 
-          .row.justify-content-center.align-items.p-0(titulo="Cálculo del consumo propuesto y ahorro potencial")
-            .col-lg-11.mb-0
-              p.mb-0 
-          .row.justify-content-center.align-items.p-0(titulo="Consumo mensual propuesto (kWh)")
-            .col-lg-11.mb-0
-              p.mb-0 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull" style="overflow-x: hidden; max-width: 100%;").mb-0(data-aos="fade-left")
+      .row.justify-content-center.align-items.p-0(titulo="Contexto del caso (fase de recolección de datos)")
+        .col-lg-11.mb-0
+          p.mb-4 Una empresa industrial desea evaluar la viabilidad de reemplazar 300 luminarias fluorescentes T8 de 70W (incluyendo balasto) por luminarias LED de 30W en su área de producción.
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-6
+              .titulo-sexto
+                h5 Tabla 1. 
+                | #[em Parámetros operativos del sistema de iluminación]
+              .tabla-a.peq
+                table
+                  thead
+                    tr
+                      th Parámetro
+                      th Valor
+                  tbody
+                    tr
+                      td.gr Horas de operación (H):
+                      td.gr 12 horas / día
+                    tr
+                      td.bl Días de operación (D):
+                      td.bl 25 días / mes
+                    tr
+                      td.gr Costo unitario promedio (CU):
+                      td.gr $550 COP / kWh
+                    tr
+                      td.bl Número de luminarias (N):
+                      td.bl 300 unidades
+      .row.justify-content-center.align-items.p-0(titulo="Determinación de la línea base (consumo actual)")
+        .col-lg-11.mb-0
+          p.mb-4 La Línea Base (LB) se establece calculando el consumo y el costo mensual de la situación #[em sin intervención] (la tecnología actual).
+          h5.mb-3 Cálculo de Consumo de la Línea Base (CLB)
+          p.mb-4 La potencia de la tecnología antigua es #[b P#[sub antigua] = 70  W = 0.070 kW]  
+          h5.mb-3 Consumo mensual total (kWh):
+          .row.justify-content-center.align-items-center.mb-4
+            .col-lg-8
+              .titulo-sexto.mb-4
+                h5 Figura 2. 
+                | #[em Ecuación y desarrollo de ejercicio para cálculo de consumo mensual según ejercicio]
+              .row.justify-content-center.align-items-center.mb-0
+                .col-lg-9
+                  img.img-t.img-a(src='@/assets/curso/tema1/10.svg', alt='Cálculo del consumo energético de la línea base a partir de la potencia instalada, número de equipos y tiempo de operación mensual.')
+          h5.mb-3 Costo Mensual de la Línea Base (COP):
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-8
+              .titulo-sexto.mb-4
+                h5 Figura 3. 
+                | #[em Ecuación y desarrollo de ejercicio para cálculo de costo mensual según ejercicio]
+              .row.justify-content-center.align-items-center.mb-0
+                .col-lg-7
+                  img.img-t.img-a(src='@/assets/curso/tema1/11.svg', alt='Cálculo del costo mensual actual de energía a partir del consumo de la línea base y el costo unitario por kilovatio hora.')
+      .row.justify-content-center.align-items.p-0(titulo="Cálculo del consumo propuesto y ahorro potencial")
+        .col-lg-11.mb-0
+          h5.mb-4 Cálculo del Consumo Propuesto (C#[sub Propuesta])
+          p.mb-0 La potencia de la tecnología LED es P#[sub propuesta] = 30  W = 0.030 kW
+      .row.justify-content-center.align-items.p-0(titulo="Consumo mensual propuesto (kWh)")
+        .col-lg-11.mb-0
+          .row.justify-content-center.align-items-center.mb-4
+            .col-lg-8
+              .titulo-sexto.mb-4
+                h5 Figura 4. 
+                | #[em Cálculo del consumo energético mensual propuesto]
+              .row.justify-content-center.align-items-center.mb-0
+                .col-lg-10
+                  img.img-t.img-a(src='@/assets/curso/tema1/12.svg', alt='Cálculo del consumo energético mensual propuesto para un sistema de iluminación.')
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-8
+              .titulo-sexto.mb-4
+                h5 Figura 5. 
+                | #[em Cálculo del ahorro energético y económico mensual]
+              h5.mb-3.mx-3 Cálculo del Ahorro Potencial
+              h5.mb-3.mx-3 1. Ahorro de energía #[em (kWh)]
+              .row.justify-content-center.align-items-center.mb-4
+                .col-lg-10
+                  img.img-t.img-a(src='@/assets/curso/tema1/13.svg', alt='Cálculo del ahorro energético y económico mensual obtenido al comparar la línea base con la propuesta de mejora.')
+              h5.mb-3.mx-3 2. Ahorro económico (COP)
+              .row.justify-content-center.align-items-center.mb-0
+                .col-lg-10
+                  img.img-t.img-a(src='@/assets/curso/tema1/14.svg', alt='Cálculo del ahorro energético y económico mensual obtenido al comparar la línea base con la propuesta de mejora.')
 
 
 </template>
