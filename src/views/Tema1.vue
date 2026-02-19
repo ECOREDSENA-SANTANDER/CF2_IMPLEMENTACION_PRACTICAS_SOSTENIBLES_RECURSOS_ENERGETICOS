@@ -127,11 +127,11 @@
     p.mb-5 El siguiente ejemplo se centra en la sustitución de luminarias, una de las medidas de eficiencia más comunes, y muestra cómo se utiliza la Línea Base para cuantificar la oportunidad de ahorro.
 
 
-    AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull" style="overflow-x: hidden; max-width: 100%;").mb-0(data-aos="fade-left")
+    AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-0(data-aos="fade-left")
       .row.justify-content-center.align-items.p-0(titulo="Contexto del caso (fase de recolección de datos)")
         .col-lg-11.mb-0
           p.mb-4 Una empresa industrial desea evaluar la viabilidad de reemplazar 300 luminarias fluorescentes T8 de 70W (incluyendo balasto) por luminarias LED de 30W en su área de producción.
-          .row.justify-content-center.align-items-center.mb-5
+          .row.justify-content-center.align-items-center.mb-0
             .col-lg-6
               .titulo-sexto
                 h5 Tabla 1. 

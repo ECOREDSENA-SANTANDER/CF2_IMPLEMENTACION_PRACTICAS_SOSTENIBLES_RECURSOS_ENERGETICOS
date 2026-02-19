@@ -242,7 +242,7 @@
 
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-right")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
-        .h-100.bg8.p-3
+        .h-100.bg8.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-4.mb-4.my-4
               img(src='@/assets/curso/tema2/17.svg' alt='AvatarTop')
@@ -250,7 +250,7 @@
             h4.text-center.mb-0.ps-lg-4.pe-lg-4.ps-3.pe-3 Reducción de picos
           p.mb-2.text-center Disminuir el consumo en las horas de máxima demanda del sistema eléctrico (horas pico, típicamente en la mañana o la tarde), donde la energía es más cara y el sistema está más tensionado.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
-        .h-100.bg8.p-3
+        .h-100.bg8.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-4.mb-4.my-4
               img(src='@/assets/curso/tema2/18.svg' alt='AvatarTop')
@@ -258,7 +258,7 @@
             h4.text-center.mb-0.ps-lg-4.pe-lg-4.ps-3.pe-3 Aplanamiento de la curva de carga
           p.mb-2.text-center Trasladar la carga energética de las horas pico a las horas valle (madrugada o fines de semana), cuando el costo es menor y la capacidad de la red es holgada.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
-        .h-100.bg8.p-3
+        .h-100.bg8.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-4.mb-4.my-4
               img(src='@/assets/curso/tema2/19.svg' alt='AvatarTop')
@@ -290,7 +290,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
         .bg10.p-lg-5.p-4.mb-0
-          .bg9.p-2.mb-4
+          .bg13.p-2.mb-4
             h4.mb-0.text-white.ps-3.pe-3 Contexto del caso
           p.mb-1 Una gran planta de procesamiento de alimentos opera un sistema de refrigeración industrial masivo que utiliza compresores y #[em chillers], que representan el 60 % de su demanda eléctrica total. La empresa enfrenta altos costos en su factura debido a la energía consumida durante las horas pico (17:00 a 20:00), que tienen las tarifas más altas.
       .col-lg-6
