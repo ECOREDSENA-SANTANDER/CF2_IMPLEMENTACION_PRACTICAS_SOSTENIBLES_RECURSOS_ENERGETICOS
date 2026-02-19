@@ -8,10 +8,10 @@
       h1 Estrategias de intervención por uso final
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1
-        img(src='@/assets/curso/tema2/1.svg', alt='')
-      .col-lg-11
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-1.col-md-2.col-5.mb-lg-0.mb-4.mb-md-0
+        img.img-t.img-a(src='@/assets/curso/tema2/1.svg', alt='')
+      .col-lg-11.col-md-10
         p.mb-0 La clave de una propuesta de EE exitosa es dirigir las acciones a los sistemas que consumen la mayor parte de la energía, aplicando el principio 80 / 20 (el 20 % de los equipos genera el 80 % del consumo). Las estrategias se agrupan por el uso final de la energía, que es donde se encuentran las mayores oportunidades de ahorro.
 
     
@@ -24,11 +24,11 @@
 
 
     TabsC.color-primario.mb-5(data-aos="fade-left")
-      .bg3.p-5(titulo="Motores de alta eficiencia")
+      .bg3.p-lg-5.p-4(titulo="Motores de alta eficiencia")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-11
             .row.justify-content-center.align-items-start
-              .col-lg-6
+              .col-lg-6.mb-lg-0.mb-4
                 ul.lista-ul.mb-0
                   li.d-flex.mb-4
                     i.fas.fa-angle-right
@@ -42,11 +42,11 @@
                   | #[em Curva de eficiencia de motores]
                 img.mb-3(src='@/assets/curso/tema2/2.png', alt='Gráfico que muestra la eficiencia energética de motores eléctricos en función de la potencia de salida, comparando las clases de eficiencia IE1 a IE5, donde se observa un aumento de la eficiencia a mayor potencia y en niveles superiores de clasificación')
                 figcaption #[b Fuente:] LUP Motors (2024)
-      .bg3.p-5(titulo="Control de velocidad ")
+      .bg3.p-lg-5.p-4(titulo="Control de velocidad ")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-11
             .row.justify-content-center.align-items-start
-              .col-lg-6
+              .col-lg-6.mb-lg-0.mb-4
                 h4.mb-4 Control de velocidad (Variadores de Frecuencia - VFD)
                 ul.lista-ul.mb-0
                   li.d-flex.mb-4
@@ -61,11 +61,11 @@
                   | #[em Variador de frecuencia]
                 img.mb-3(src='@/assets/curso/tema2/3.png', alt='Variador de frecuencia industrial utilizado para el control de velocidad y eficiencia energética de motores eléctricos.')
                 figcaption #[b Fuente:] Motores Eléctricos (2025)
-      .bg3.p-5(titulo="Corrección del factor de potencia")
+      .bg3.p-lg-5.p-4(titulo="Corrección del factor de potencia")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-11
             .row.justify-content-center.align-items-start
-              .col-lg-6
+              .col-lg-6.mb-lg-0.mb-4
                 ul.lista-ul.mb-0
                   li.d-flex.mb-0
                     i.fas.fa-angle-right
@@ -83,7 +83,7 @@
       h3.mb-0 Iluminación
 
 
-    p.mb-5 La iluminación es una fuente sencilla de EE por su rápida amortización.
+    p.mb-5(data-aos="fade-left") La iluminación es una fuente sencilla de EE por su rápida amortización.
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -119,7 +119,7 @@
                 img.mb-0(alt="Persona realizando mantenimiento o reemplazo de una luminaria en el techo, como parte de actividades de mejora en sistemas de iluminación." src="@/assets/curso/tema2/6.png")
 
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
         .subtitulo
       .col.ps-lg-0
@@ -127,10 +127,10 @@
           h4.mb-0 Climatización y HVAC (calefacción, ventilación y aire acondicionado)
 
     
-    p.mb-5 Los sistemas de HVAC son críticos en edificios y procesos con requerimientos de temperatura o calidad del aire.
+    p.mb-5(data-aos="fade-right") Los sistemas de HVAC son críticos en edificios y procesos con requerimientos de temperatura o calidad del aire.
 
 
-    .row.justify-content-center.align-items-start.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-start.mb-5(data-aos="fade-left")
       .col-lg-8
         AcordionA.press(tipo="b" clase-tarjeta="tarjeta tarjeta--grey")
           .row.align-items-center(titulo="Optimización de equipos")
@@ -163,13 +163,13 @@
           h4.mb-0 Optimización de procesos térmicos
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-1.d-none.d-lg-block
         img(src='@/assets/curso/tema2/8.svg', alt='')
       .col-lg-10
         .bg4.p-4
           p.mb-0.mb-lg-1.mt-lg-2 #[b Aislamiento:] aislamiento de tuberías y calderas (ejemplo: detección con cámaras termográficas).
-      .col-lg-1
+      .col-lg-1.d-none.d-lg-block
         img(src='@/assets/curso/tema2/9.svg', alt='')
 
     
@@ -181,9 +181,9 @@
           .col.ps-lg-0
             .ssu.p-lg-2.p-3.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
               h4.mb-0 Recuperación de calor
-        .bg5.p-5.mb-4
+        .bg5.p-lg-5.p-4.mb-4
           p.mb-0 captura y reutilización del calor residual (vapor, gases) que normalmente se desecha, para precalentar agua u otros fluidos.
-        img.img-t.img-d(src='@/assets/curso/tema2/10.svg', alt='')
+        img.img-t.img-d.d-none.d-lg-block(src='@/assets/curso/tema2/10.svg', alt='')
       .col-lg-5
         .titulo-sexto.mb-4
           h5 Figura 10. 
@@ -191,7 +191,7 @@
         img(src='@/assets/curso/tema2/11.png', alt='Técnico realizando mantenimiento e instalación de ductos de climatización con aislamiento térmico en un sistema HVAC.')
 
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
         .subtitulo
       .col.ps-lg-0
@@ -199,11 +199,11 @@
           h4.mb-0 Gestión de la demanda (GDE)
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        .bg5.p-5.mb-4
+        .bg5.p-lg-5.p-4.mb-4
           p.mb-0 la GDE son acciones orientadas a cambiar el perfil de consumo del usuario, trasladando la carga de las horas pico (donde la energía es más cara) a las horas valle.
-        img.img-t.img-d(src='@/assets/curso/tema2/13.svg', alt='')
+        img.img-t.img-d.d-none.d-lg-block(src='@/assets/curso/tema2/13.svg', alt='')
       .col-lg-5
-        img(src='@/assets/curso/tema2/12.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema2/12.png', alt='')
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -214,7 +214,7 @@
           h4.mb-0 Acciones clave
 
     
-    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-left")
       .col-lg-5.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
         .bg6.p-lg-5.p-4.h-100
           img.img-t.img-a.mb-4(src='@/assets/curso/tema2/14.svg')
@@ -227,20 +227,20 @@
           p.mb-lg-4.text-white Usar la electricidad barata de la noche para crear frío / calor (almacenamiento térmico) o cargar baterías (almacenamiento eléctrico) que luego se utiliza en las horas pico.
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/16.png', alt='')
       .col-lg-7
         .bg4.p-4.mb-4
           .row.justify-content-center.align-items-center.mb-
-            .col-lg-2
+            .col-lg-2.mb-lg-0.mb-4
               img.img-t.img-a(src='@/assets/curso/tema2/15.svg')
             .col-lg-10
               p.mb-0 La Gestión de la Demanda (GDE), también conocida como #[em Demand Side Management (DSM)], es una estrategia planificada y coordinada por la empresa eléctrica (o el propio usuario industrial) para influir en el perfil de consumo eléctrico del usuario final.
         p.mb-0 A diferencia de la Eficiencia Energética (EE), que se enfoca en usar menos energía en general, la GDE se enfoca en cambiar el cuándo se usa la energía, buscando los siguientes objetivos:
 
 
-    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-right")
+    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg8.p-4
           .row.justify-content-center.align-items-center.mb-0
@@ -267,7 +267,7 @@
           p.mb-2.text-center Reducir la dependencia de la red en momentos críticos, fortaleciendo la seguridad del suministro.
 
     
-    p.mb-5 El diagrama adjunto ilustra cómo la GDE es un enfoque más activo y bidireccional que la simple respuesta a la demanda.
+    p.mb-5(data-aos="fade-right") El diagrama adjunto ilustra cómo la GDE es un enfoque más activo y bidireccional que la simple respuesta a la demanda.
 
 
     .row.fondo3.p-4.p-lg-4.p-md-4.mb-5(data-aos="fade-down")
@@ -287,7 +287,7 @@
       h3.mb-0 Caso práctico: desplazamiento de carga en una planta de producción de frío
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-6
         .bg10.p-lg-5.p-4.mb-0
           .bg13.p-2.mb-4
@@ -305,7 +305,7 @@
           h4.mb-0 La estrategia de gestión de la demanda aplicada
 
 
-    p.mb-5 La planta implementa una estrategia de desplazamiento de carga utilizando el sistema de almacenamiento inherente al frío.
+    p.mb-5(data-aos="fade-left") La planta implementa una estrategia de desplazamiento de carga utilizando el sistema de almacenamiento inherente al frío.
 
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -328,7 +328,7 @@
               img.mb-0(src='@/assets/curso/tema2/23.png' alt='AvatarTop')
 
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 2.
@@ -359,7 +359,7 @@
                 td.gr Menor riesgo de paradas en picos de demanda del sistema.
 
     
-    p.mb-5 Este ejemplo demuestra que la GDE es una poderosa herramienta financiera que, sin necesariamente reducir la cantidad total de energía utilizada, logra una reducción significativa de los costos operativos al aprovechar las estructuras tarifarias horarias.
+    p.mb-5(data-aos="fade-right") Este ejemplo demuestra que la GDE es una poderosa herramienta financiera que, sin necesariamente reducir la cantidad total de energía utilizada, logra una reducción significativa de los costos operativos al aprovechar las estructuras tarifarias horarias.
 
 
     .bloque-texto-g.color-secundario.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
@@ -399,7 +399,7 @@
                 li.d-flex.mb-0
                   i.fas.fa-angle-right
                   p.mb-0 #[b Certificación:] los productos deben demostrar, mediante ensayos en laboratorios acreditados, que cumplen con los Límites Mínimos de Eficiencia Energética (LMME) establecidos por la norma.
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         img.mb-0(src='@/assets/curso/tema2/25.png' alt='AvatarTop')
 
 
@@ -412,7 +412,7 @@
         figcaption #[b Fuente:] Ministerio de Minas y Energía (2016)
 
     
-    p.mb-4 La etiqueta es la herramienta clave del RETIQ para la Gestión de la Demanda (GDE), ya que influye directamente en la decisión de compra del usuario:
+    p.mb-4(data-aos="fade-left") La etiqueta es la herramienta clave del RETIQ para la Gestión de la Demanda (GDE), ya que influye directamente en la decisión de compra del usuario:
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -448,7 +448,7 @@
             img.img-t(src="@/assets/curso/tema2/31.svg", alt="alt")
 
     
-    p.mb-5 Para el gestor de energía, el RETIQ y la etiqueta tienen implicaciones directas en la propuesta de mejora:
+    p.mb-5(data-aos="fade-left") Para el gestor de energía, el RETIQ y la etiqueta tienen implicaciones directas en la propuesta de mejora:
 
     
     .row.justify-content-center.align-items-stretch.mb-0(data-aos="fade-right")

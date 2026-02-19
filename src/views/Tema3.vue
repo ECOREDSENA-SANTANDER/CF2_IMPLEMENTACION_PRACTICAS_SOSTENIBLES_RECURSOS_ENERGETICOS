@@ -8,42 +8,42 @@
       h1 Viabilidad, seguimiento y propuesta de valor
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1
-        img(src='@/assets/curso/tema3/1.svg', alt='')
-      .col-lg-11
-        p.mb-0 Una propuesta de eficiencia energética, por muy sólida que sea técnicamente, solo se aprueba si demuestra viabilidad económica. Esto requiere traducir los ahorros de energía (en kWh) en flujos de caja (dinero) y compararlos con la inversión inicial (CAPEX).
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-1.col-md-2.col-5.mb-lg-0.mb-4.mb-md-0
+        img.img-t.img-a(src='@/assets/curso/tema3/1.svg', alt='')
+      .col-lg-11.col-md-10
+        p.mb-0  Una propuesta de eficiencia energética, por muy sólida que sea técnicamente, solo se aprueba si demuestra viabilidad económica. Esto requiere traducir los ahorros de energía (en kWh) en flujos de caja (dinero) y compararlos con la inversión inicial (CAPEX).
 
     
-    .titulo.mb-5(data-aos="fade-right")
+    .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Indicadores financieros clave
 
 
-    p.mb-5 Los siguientes indicadores permiten evaluar la rentabilidad del proyecto en el largo plazo:
+    p.mb-5(data-aos="fade-right") Los siguientes indicadores permiten evaluar la rentabilidad del proyecto en el largo plazo:
 
 
     TabsC.color-primario.mb-5(data-aos="fade-left")
-      .bg3.p-5(titulo="Periodo de Recuperación (PR)")
+      .bg3.p-lg-5.p-4(titulo="Periodo de Recuperación (PR)")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-11
             .row.justify-content-center.align-items-start
-              .col-lg-5
+              .col-lg-5.col-md-7.col-10.order-lg-2.order-md-2.order-2
                 img(src='@/assets/curso/tema3/2.png', alt='')
-              .col-lg-7.my-lg-4
+              .col-lg-7.my-lg-4.order-lg-1.order-md-1.order-1
                 p.mb-4 #[b • Definición:] el tiempo (en meses o años) que tarda la empresa en recuperar la inversión inicial (CAPEX) únicamente con los ahorros generados por el proyecto.
                 h5.mb-4 • Fórmula Simple (sin valor del dinero en el tiempo): 
                 .formula.mb-4
                   p.mb-0 #[math #[mi PR] #[mo =] #[mfrac #[mtext Inversión inicial] #[mtext Ahorro anual]]]
-                p.mb-0 • Relevancia: Es el indicador más usado por la gerencia para medir el riesgo a corto plazo.
-      .bg3.p-5(titulo="Valor Actual Neto (VAN)")
+                p.mb-lg-0.mb-4 • Relevancia: Es el indicador más usado por la gerencia para medir el riesgo a corto plazo.
+      .bg3.p-lg-5.p-4(titulo="Valor Actual Neto (VAN)")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-11
             .row.justify-content-center.align-items-start
-              .col-lg-5
+              .col-lg-5.col-md-7.col-10.order-lg-2.order-md-2.order-2
                 img(src='@/assets/curso/tema3/3.png', alt='')
-              .col-lg-7.my-lg-4
-                p.mb-0 #[b • Definición:] es la diferencia entre el valor actual de los flujos de caja futuros (los ahorros anuales) y el valor actual de la inversión inicial. Utiliza una tasa de descuento (Tasa de Oportunidad o Tasa Mínima Aceptable de Retorno - TMAR) para traer el valor futuro del dinero al presente.
+              .col-lg-7.my-lg-4.order-lg-1.order-md-1.order-1
+                p.mb-lg-0.mb-4 #[b • Definición:] es la diferencia entre el valor actual de los flujos de caja futuros (los ahorros anuales) y el valor actual de la inversión inicial. Utiliza una tasa de descuento (Tasa de Oportunidad o Tasa Mínima Aceptable de Retorno - TMAR) para traer el valor futuro del dinero al presente.
 
       
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
@@ -62,7 +62,7 @@
         h5.mb-3 • Tasa Interna de Retorno (TIR):
 
 
-    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-left")
       .col-md-6.col-lg-4
         .tarjeta-avatar
           img.imaa.my-4(src='@/assets/curso/tema3/5.svg' alt='')
@@ -84,7 +84,7 @@
       h3.mb-0 El rol de los incentivos fiscales (Ley 2099 de 2021)
 
 
-    .bg12.mb-0
+    .bg12.mb-0(data-aos="fade-left")
       .row.justify-content-center.align-items-stretch.mb-5
         .col-lg-3.pe-lg-0.h-100
           img.mb-0.img-t.img-a(src='@/assets/curso/tema3/7.svg', alt='')
@@ -107,12 +107,12 @@
       h3.mb-0 Seguimiento y medición (M&V)
 
     
-    p.mb-5 La medición y verificación (M&V) es la práctica de cuantificar los ahorros reales generados por una medida de eficiencia energética, asegurando que las proyecciones iniciales se cumplan.
+    p.mb-5(data-aos="fade-left") La medición y verificación (M&V) es la práctica de cuantificar los ahorros reales generados por una medida de eficiencia energética, asegurando que las proyecciones iniciales se cumplan.
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
-        img.mb-0(src='@/assets/curso/tema3/9.png', alt='')
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-6.col-md-8.col-10
+        img.mb-lg-0.mb-5(src='@/assets/curso/tema3/9.png', alt='')
       .col-lg-6
         LineaTiempoD.color-secundario.activo
           .row.justify-content-center.align-items-center.mb-0(numero="A" titulo="La necesidad de M&V")
@@ -129,15 +129,15 @@
                   p.mb-0 #[b Propósito:] da credibilidad a los ahorros reportados, lo cual es vital para los contratos de rendimiento energético y para justificar el uso de incentivos fiscales. 
 
 
-    .titulo.mb-5(data-aos="fade-right")
+    .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Propuesta de valor sostenible
 
     
-    p.mb-5 La propuesta final debe articular el valor técnico y financiero con la visión estratégica de la sostenibilidad de la empresa (los tres pilares).
+    p.mb-5(data-aos="fade-right") La propuesta final debe articular el valor técnico y financiero con la visión estratégica de la sostenibilidad de la empresa (los tres pilares).
 
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
         .subtitulo
       .col.ps-lg-0
@@ -172,7 +172,7 @@
           p.mb-2.text-center Mejora en la calidad del ambiente laboral (ejemplo: mejor iluminación LED) y cumplimiento normativo (responsabilidad social corporativa).
 
     
-    p.mb-5 Teniendo en cuenta el ejercicio desarrollado previamente, se tomarán los resultados para establecer la propuesta de valor.
+    p.mb-5(data-aos="fade-right") Teniendo en cuenta el ejercicio desarrollado previamente, se tomarán los resultados para establecer la propuesta de valor.
 
 
     .bg1.p-4.mb-5(data-aos="fade-left")
@@ -193,19 +193,19 @@
           p.mb-0 Retomando el caso práctico: la inversión inicial (CAPEX) es de $30,000,000 COP y el ahorro económico anual es de $23,760,000 COP ($1,980,000 COP / mes x 12 meses).
 
 
-    .titulo.mb-5(data-aos="fade-right")
+    .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Cálculo de indicadores clave
 
 
-    p.mb-5 Para evaluar la viabilidad económica, utilizaremos los tres indicadores fundamentales, asumiendo una vida útil del proyecto (N) de 5 años y una tasa de descuento (i) o TMAR del 10 % anual (la tasa mínima que la empresa acepta ganar).
+    p.mb-5(data-aos="fade-right") Para evaluar la viabilidad económica, utilizaremos los tres indicadores fundamentales, asumiendo una vida útil del proyecto (N) de 5 años y una tasa de descuento (i) o TMAR del 10 % anual (la tasa mínima que la empresa acepta ganar).
 
     
     AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-5(data-aos="fade-left")
       .row.justify-content-center.align-items.p-0(titulo="Periodo de Recuperación (PR) simple")
         .col-lg-11.mb-0
           p.mb-4 Este indicador determina el riesgo a corto plazo sin considerar el valor del dinero en el tiempo.
-          .row.justify-content-center.align-items-center.mb-5
+          .row.justify-content-center.align-items-center.mb-4
             .col-lg-6
               .titulo-sexto
                 h5 Figura 15.
@@ -299,7 +299,7 @@
                 li.d-flex.mb-0
                   i.fas.fa-angle-right
                   p.mb-0 #[b Valor ambiental:] el ahorro anual de $3,600 kWh / mes x 12 meses = 43,200 kWh / año se traduce en una reducción significativa de la huella de carbono de la empresa.
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema3/17.png', alt='')
 
 
@@ -308,14 +308,14 @@
       h3.mb-0 Medición y Verificación (M&V) (recapitulación)
 
   
-    .row.justify-content-center.align-items-center.mb-0
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema3/18.png', alt='')
       .col-lg-7
         .row.justify-content-center.align-items-center.mb-4
-          .col-lg-2
-            img(src='@/assets/curso/tema3/19.svg', alt='')
-          .col-lg-10
+          .col-lg-2.col-md-2.col-5
+            img.img-t.img-a.mb-lg-0.mb-4.mb-md-0(src='@/assets/curso/tema3/19.svg', alt='')
+          .col-lg-10.col-md-10
             p.mb-0 Para asegurar que estos $80 millones de VAN se materialicen, es obligatorio implementar el M&V bajo el Protocolo IPMVP. Esto implica:
         .bg14.p-4
           ul.lista-ul.mb-0
@@ -326,11 +326,6 @@
               i.fas.fa-angle-right
               p.mb-0 #[b Verificación:] certificar que el ahorro de $3,600 kWh / mes es real y atribuible únicamente al cambio de tecnología.
       
-       
-
-
-
-
 
 </template>
 

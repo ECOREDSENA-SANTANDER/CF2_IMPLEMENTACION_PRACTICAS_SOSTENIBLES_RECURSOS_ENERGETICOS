@@ -28,7 +28,7 @@
           p.mb-0 Finalmente, se aborda la etapa de evaluación y viabilidad económica, determinante para la toma de decisiones, mediante el cálculo de indicadores financieros como el Valor Actual Neto (VAN), la Tasa Interna de Retorno (TIR) y el Período de Recuperación (PR), y su articulación con los objetivos de sostenibilidad, como la reducción de emisiones de CO₂. De esta manera, el aprendiz queda capacitado para formular una Propuesta de Valor integral que garantice la viabilidad técnica y financiera de las acciones de mejora.
 
 
-    .row.justify-content-center.align-items-center           
+    .row.justify-content-center.align-items-center(data-aos="fade-right")           
       .col-lg-12
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

@@ -19,12 +19,12 @@
         p.mb-0 En este contexto, la Auditoría Energética (AE) se define como un examen sistemático, estructurado y detallado de las instalaciones, equipos o procesos de una entidad, cuyo objetivo principal es identificar los flujos de energía y detectar oportunidades de mejora que permitan reducir el consumo, los costos asociados y el impacto ambiental. La auditoría energética actúa como un vínculo entre el análisis del consumo reflejado en la facturación energética y la formulación e implementación de soluciones técnicas y de gestión que generen ahorros reales y sostenibles.
 
 
-    .titulo.mb-5(data-aos="fade-right")
+    .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Tipos de auditoría energética
 
     
-    p.mb-5 El alcance de la auditoría energética debe definirse desde la etapa inicial, considerando los recursos disponibles y la complejidad del proceso productivo. Con base en estos criterios, se establecen los siguientes tipos de auditoría energética:
+    p.mb-5(data-aos="fade-left") El alcance de la auditoría energética debe definirse desde la etapa inicial, considerando los recursos disponibles y la complejidad del proceso productivo. Con base en estos criterios, se establecen los siguientes tipos de auditoría energética:
 
 
     .row.justify-content-center.align-items-start.mb-5(data-aos="fade-right")
@@ -52,12 +52,12 @@
         img(src='@/assets/curso/tema1/3.png', alt='')
 
     
-    .titulo.mb-5(data-aos="fade-right")
+    .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Fases de la auditoría energética detallada
 
     
-    p.mb-4 Una AE detallada se ejecuta a través de un proceso riguroso:
+    p.mb-4(data-aos="fade-left") Una AE detallada se ejecuta a través de un proceso riguroso:
 
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
@@ -92,7 +92,7 @@
             figcaption #[b Fuente:] Sin Ce O Dos (2018)
 
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12 
         .tarjetaf.p-4.mb-0
           SlyderA(tipo="b")
@@ -124,7 +124,7 @@
           h4.mb-0 Ejemplo práctico: determinación de la línea base y ahorro potencial
 
 
-    p.mb-5 El siguiente ejemplo se centra en la sustitución de luminarias, una de las medidas de eficiencia más comunes, y muestra cómo se utiliza la Línea Base para cuantificar la oportunidad de ahorro.
+    p.mb-5(data-aos="fade-left") El siguiente ejemplo se centra en la sustitución de luminarias, una de las medidas de eficiencia más comunes, y muestra cómo se utiliza la Línea Base para cuantificar la oportunidad de ahorro.
 
 
     AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-0(data-aos="fade-left")
