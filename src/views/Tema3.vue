@@ -50,7 +50,7 @@
       .col-lg-6
         .titulo-sexto.mb-4
           h5 Figura 13. 
-          | #[em Fórmula y criterio de VAN]
+          | Fórmula y criterio de VAN
         p.mb-4 #[b * Criterio:] Si V AN > 0, el proyecto es rentable. Si V AN = 0, el proyecto es indiferente. Si V AN < 0, el proyecto se debe rechazar. #[b * Fórmula (Generalizada):]
         .bg1.p-4.mb-4
           img.mb-0.img-t.img-a(src='@/assets/curso/tema3/4.svg', alt='Fórmula y criterios del Valor Actual Neto (VAN) y la Tasa Interna de Retorno (TIR) para la evaluación de la rentabilidad de proyectos.')
@@ -187,7 +187,7 @@
       .col-lg-6
         .titulo-sexto.mb-4
           h5 Figura 14. 
-          | #[em Ejercicio periodo de recuperación parte 1]
+          | Ejercicio periodo de recuperación parte 1
         img.mb-4.img-t.img-a(src='@/assets/curso/tema3/13.svg', alt='Fórmula y cálculo del Período de Recuperación (PR) en meses a partir de la inversión total y el ahorro mensual.')
         .bg1.p-4
           p.mb-0 Retomando el caso práctico: la inversión inicial (CAPEX) es de $30,000,000 COP y el ahorro económico anual es de $23,760,000 COP ($1,980,000 COP / mes x 12 meses).
@@ -209,7 +209,7 @@
             .col-lg-6
               .titulo-sexto
                 h5 Figura 15.
-                | #[em Ejercicio periodo de recuperación parte 2]
+                | Ejercicio periodo de recuperación parte 2
               img.mb-0.img-t.img-a(src='@/assets/curso/tema3/14.svg', alt='Fórmula y cálculo del Período de Recuperación (PR) en años, basado en la inversión inicial y el ahorro anual.')
           p.mb-0 #[b Conclusión pr:] la inversión se recupera en aproximadamente un año y tres meses, lo cual es altamente atractivo.
       .row.justify-content-center.align-items.p-0(titulo="Valor Actual Neto (VAN)")
@@ -219,7 +219,7 @@
             .col-lg-4
               .titulo-sexto
                 h5 Figura 16.
-                | #[em Ejercicio valor actual neto]
+                | Ejercicio valor actual neto
               img.mb-0.img-t.img-a(src='@/assets/curso/tema3/15.svg', alt='Ejemplo de cálculo del Valor Actual Neto (VAN) que presenta la fórmula aplicada, los flujos de caja descontados por año y el resultado final del VAN para un proyecto de inversión.')
           
           .tabla-a.tab2.mb-4
@@ -262,8 +262,9 @@
                   td 0.6209
                   td +$14,752,464
                 tr.fila-van.gr
-                  td(colspan="3") VAN
-                  td +$80,073,676
+                  td(colspan="2").text-center #[b VAN]
+                  td.bor
+                  td(colspan="2") +$80,073,676
           p.mb-0 Criterio VAN: Dado que VAN > 0 ($80,073,676), el proyecto es altamente rentable y debe ser aceptado.
       .row.justify-content-center.align-items.p-0(titulo="Tasa Interna de Retorno (TIR)")
         .col-lg-11.mb-0
@@ -272,7 +273,7 @@
             .col-lg-6
               .titulo-sexto
                 h5 Figura 17.
-                | #[em Ejercicio tasa interna de retorno]
+                | Ejercicio tasa interna de retorno
               img.mb-0.img-t.img-a(src='@/assets/curso/tema3/16.svg', alt='Resultado de la Tasa Interna de Retorno (TIR) y criterio de aceptación del proyecto al compararla con la tasa de descuento.')
   
 

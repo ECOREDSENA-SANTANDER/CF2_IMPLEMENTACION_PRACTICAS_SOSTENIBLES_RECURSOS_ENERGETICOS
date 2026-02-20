@@ -39,7 +39,7 @@
               .col-lg-6
                 .titulo-sexto.mb-4
                   h5 Figura 6. 
-                  | #[em Curva de eficiencia de motores]
+                  | Curva de eficiencia de motores
                 img.mb-3(src='@/assets/curso/tema2/2.png', alt='Gráfico que muestra la eficiencia energética de motores eléctricos en función de la potencia de salida, comparando las clases de eficiencia IE1 a IE5, donde se observa un aumento de la eficiencia a mayor potencia y en niveles superiores de clasificación')
                 figcaption #[b Fuente:] LUP Motors (2024)
       .bg3.p-lg-5.p-4(titulo="Control de velocidad ")
@@ -58,7 +58,7 @@
               .col-lg-6
                 .titulo-sexto.mb-4
                   h5 Figura 7. 
-                  | #[em Variador de frecuencia]
+                  | Variador de frecuencia
                 img.mb-3(src='@/assets/curso/tema2/3.png', alt='Variador de frecuencia industrial utilizado para el control de velocidad y eficiencia energética de motores eléctricos.')
                 figcaption #[b Fuente:] Motores Eléctricos (2025)
       .bg3.p-lg-5.p-4(titulo="Corrección del factor de potencia")
@@ -73,7 +73,7 @@
               .col-lg-6
                 .titulo-sexto.mb-4
                   h5 Figura 8. 
-                  | #[em Banco de condensadores]
+                  | Banco de condensadores
                 img.mb-3(src='@/assets/curso/tema2/4.png', alt='Banco de condensadores para corrección del factor de potencia, compuesto por capacitores, contactores y sistema de control montados en un gabinete eléctrico.')
                 figcaption #[b Fuente:] WEG (2025)
 
@@ -115,7 +115,7 @@
               .col-lg-5.col-md-8.col-10
                 .titulo-sexto.mb-4
                   h5 Figura 9. 
-                  | #[em Cambio de iluminación]
+                  | Cambio de iluminación
                 img.mb-0(alt="Persona realizando mantenimiento o reemplazo de una luminaria en el techo, como parte de actividades de mejora en sistemas de iluminación." src="@/assets/curso/tema2/6.png")
 
 
@@ -187,7 +187,7 @@
       .col-lg-5
         .titulo-sexto.mb-4
           h5 Figura 10. 
-          | #[em Aislamiento térmico]
+          | Aislamiento térmico
         img(src='@/assets/curso/tema2/11.png', alt='Técnico realizando mantenimiento e instalación de ductos de climatización con aislamiento térmico en un sistema HVAC.')
 
 
@@ -277,7 +277,7 @@
           .col-lg-4
             .titulo-sexto.mb-4
               h5 Figura 11. 
-              | #[em Gestión de la demanda]
+              | Gestión de la demanda
             img.mb-4(src='@/assets/curso/tema2/20.svg', alt='Diagrama comparativo entre Respuesta a la Demanda (DR) y Gestión de la Demanda (DSM) en redes eléctricas, mostrando su interacción con los usuarios finales y las Smart Grids.')
             figcaption #[b Fuente:] Díaz, D (2021)
 
@@ -332,7 +332,7 @@
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 2.
-          | #[em Ejemplo gestión de la demanda]
+          | Ejemplo gestión de la demanda
         .tabla-a.tab1
           table
             thead
@@ -407,7 +407,7 @@
       .col-lg-4
         .titulo-sexto.mb-4
           h5 Figura 12. 
-          | #[em Etiquetado energético]
+          | Etiquetado energético
         img.mb-2(src='@/assets/curso/tema2/27.png', alt='Etiqueta de eficiencia energética que muestra el consumo de energía, el nivel de eficiencia y la clasificación energética de un motor monofásico en Colombia.')
         figcaption #[b Fuente:] Ministerio de Minas y Energía (2016)
 

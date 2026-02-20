@@ -86,7 +86,7 @@
           .col-lg-6
             .titulo-sexto.mb-4
               h5 Figura 1. 
-              | #[em Línea base de consumo de energía]
+              | Línea base de consumo de energía
             .bg2.mb-0.p-4
               img(src='@/assets/curso/tema1/6.svg', alt='Gráfico que presenta la evolución del consumo de energía en el tiempo, comparando energía de referencia, energía medida y energía ajustada, e indicando el ahorro obtenido tras la implementación de medidas de eficiencia energética.')
             figcaption #[b Fuente:] Sin Ce O Dos (2018)
@@ -135,7 +135,7 @@
             .col-lg-6
               .titulo-sexto
                 h5 Tabla 1. 
-                | #[em Parámetros operativos del sistema de iluminación]
+                | Parámetros operativos del sistema de iluminación
               .tabla-a.peq
                 table
                   thead
@@ -165,7 +165,7 @@
             .col-lg-8
               .titulo-sexto.mb-4
                 h5 Figura 2. 
-                | #[em Ecuación y desarrollo de ejercicio para cálculo de consumo mensual según ejercicio]
+                | Ecuación y desarrollo de ejercicio para cálculo de consumo mensual según ejercicio
               .row.justify-content-center.align-items-center.mb-0
                 .col-lg-9
                   img.img-t.img-a(src='@/assets/curso/tema1/10.svg', alt='Cálculo del consumo energético de la línea base a partir de la potencia instalada, número de equipos y tiempo de operación mensual.')
@@ -174,7 +174,7 @@
             .col-lg-8
               .titulo-sexto.mb-4
                 h5 Figura 3. 
-                | #[em Ecuación y desarrollo de ejercicio para cálculo de costo mensual según ejercicio]
+                | Ecuación y desarrollo de ejercicio para cálculo de costo mensual según ejercicio
               .row.justify-content-center.align-items-center.mb-0
                 .col-lg-7
                   img.img-t.img-a(src='@/assets/curso/tema1/11.svg', alt='Cálculo del costo mensual actual de energía a partir del consumo de la línea base y el costo unitario por kilovatio hora.')
@@ -188,7 +188,7 @@
             .col-lg-8
               .titulo-sexto.mb-4
                 h5 Figura 4. 
-                | #[em Cálculo del consumo energético mensual propuesto]
+                | Cálculo del consumo energético mensual propuesto
               .row.justify-content-center.align-items-center.mb-0
                 .col-lg-10
                   img.img-t.img-a(src='@/assets/curso/tema1/12.svg', alt='Cálculo del consumo energético mensual propuesto para un sistema de iluminación.')
@@ -196,7 +196,7 @@
             .col-lg-8
               .titulo-sexto.mb-4
                 h5 Figura 5. 
-                | #[em Cálculo del ahorro energético y económico mensual]
+                | Cálculo del ahorro energético y económico mensual
               h5.mb-3.mx-3 Cálculo del Ahorro Potencial
               h5.mb-3.mx-3 1. Ahorro de energía #[em (kWh)]
               .row.justify-content-center.align-items-center.mb-4
