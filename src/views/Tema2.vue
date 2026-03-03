@@ -20,7 +20,7 @@
       h3.mb-0 Oportunidades de EE en sistemas comunes
 
 
-    p.mb-5 Fuerza motriz (motores, bombas y compresores): Los sistemas que utilizan motores eléctricos (como bombas, compresores, ventiladores y cintas transportadoras) suelen representar la mayor parte del consumo industrial.
+    p.mb-5 Fuerza motriz (motores, bombas y compresores): los sistemas que utilizan motores eléctricos (como bombas, compresores, ventiladores y cintas transportadoras) suelen representar la mayor parte del consumo industrial.
 
 
     TabsC.color-primario.mb-5(data-aos="fade-left")
@@ -42,12 +42,11 @@
                   | Curva de eficiencia de motores
                 img.mb-3(src='@/assets/curso/tema2/2.png', alt='Gráfico que muestra la eficiencia energética de motores eléctricos en función de la potencia de salida, comparando las clases de eficiencia IE1 a IE5, donde se observa un aumento de la eficiencia a mayor potencia y en niveles superiores de clasificación')
                 figcaption #[b Fuente:] LUP Motors (2024)
-      .bg3.p-lg-5.p-4(titulo="Control de velocidad ")
+      .bg3.p-lg-5.p-4(titulo="Control de velocidad (Variadores de Frecuencia - VFD)")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-11
             .row.justify-content-center.align-items-start
               .col-lg-6.mb-lg-0.mb-4
-                h4.mb-4 Control de velocidad (Variadores de Frecuencia - VFD)
                 ul.lista-ul.mb-0
                   li.d-flex.mb-4
                     i.fas.fa-angle-right
@@ -182,7 +181,7 @@
             .ssu.p-lg-2.p-3.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
               h4.mb-0 Recuperación de calor
         .bg5.p-lg-5.p-4.mb-4
-          p.mb-0 captura y reutilización del calor residual (vapor, gases) que normalmente se desecha, para precalentar agua u otros fluidos.
+          p.mb-0 Captura y reutilización del calor residual (vapor, gases) que normalmente se desecha, para precalentar agua u otros fluidos.
         img.img-t.img-d.d-none.d-lg-block(src='@/assets/curso/tema2/10.svg', alt='')
       .col-lg-5
         .titulo-sexto.mb-4
@@ -200,7 +199,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         .bg5.p-lg-5.p-4.mb-4
-          p.mb-0 la GDE son acciones orientadas a cambiar el perfil de consumo del usuario, trasladando la carga de las horas pico (donde la energía es más cara) a las horas valle.
+          p.mb-0 La GDE son acciones orientadas a cambiar el perfil de consumo del usuario, trasladando la carga de las horas pico (donde la energía es más cara) a las horas valle.
         img.img-t.img-d.d-none.d-lg-block(src='@/assets/curso/tema2/13.svg', alt='')
       .col-lg-5
         img.d-none.d-lg-block(src='@/assets/curso/tema2/12.png', alt='')
@@ -236,7 +235,7 @@
             .col-lg-2.mb-lg-0.mb-4
               img.img-t.img-a(src='@/assets/curso/tema2/15.svg')
             .col-lg-10
-              p.mb-0 La Gestión de la Demanda (GDE), también conocida como #[em Demand Side Management (DSM)], es una estrategia planificada y coordinada por la empresa eléctrica (o el propio usuario industrial) para influir en el perfil de consumo eléctrico del usuario final.
+              p.mb-0 La Gestión de la Demanda (GDE), también conocida como #[em Demand Side Management] (DSM), es una estrategia planificada y coordinada por la empresa eléctrica (o el propio usuario industrial) para influir en el perfil de consumo eléctrico del usuario final.
         p.mb-0 A diferencia de la Eficiencia Energética (EE), que se enfoca en usar menos energía en general, la GDE se enfoca en cambiar el cuándo se usa la energía, buscando los siguientes objetivos:
 
 
@@ -443,7 +442,7 @@
                 .col
                   h4.mb-3 Comparación
                   p.mb-0 Fecuentemente incluye un valor de referencia para comparar el consumo del producto con un modelo de eficiencia mínima o promedio, facilitando la justificación del CAPEX más alto de un equipo eficiente.
-                       
+                      
           .col-lg-4.sob1.d-none.d-lg-block
             img.img-t(src="@/assets/curso/tema2/31.svg", alt="alt")
 

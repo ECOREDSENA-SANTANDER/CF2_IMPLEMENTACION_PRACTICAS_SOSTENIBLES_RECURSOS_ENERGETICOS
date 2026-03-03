@@ -103,7 +103,7 @@ export default {
         {
           id: 4,
           texto:
-            'La Gestión de la Demanda (GDE) es una medida de Eficiencia Energética que se enfoca, principalmente, en reducir el consumo total anual de energía (kWh) de la empresa.',
+            'La Gestión de la Demanda (GDE) es una medida de eficiencia energética que se enfoca, principalmente, en reducir el consumo total anual de energía (kWh) de la empresa.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: false,
           opciones: [
@@ -126,7 +126,7 @@ export default {
         {
           id: 5,
           texto:
-            'El ahorro de energía se denomina "ahorro evitado" porque no puede medirse directamente, sino que se calcula comparando el consumo real posterior a la intervención con la Línea Base Ajustada.',
+            'El ahorro de energía se denomina "ahorro evitado" porque no puede medirse directamente, sino que se calcula comparando el consumo real posterior a la intervención con la línea base ajustada.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: false,
           opciones: [
@@ -172,7 +172,7 @@ export default {
         {
           id: 7,
           texto:
-            'Un proyecto de eficiencia energética se considera económicamente viable y debe ser aceptado si el cálculo de su Valor Actual Neto (VAN) resulta en un valor menor que cero (VAN< 0).',
+            'Un proyecto de eficiencia energética se considera económicamente viable y debe ser aceptado si el cálculo de su Valor Actual Neto (VAN) resulta en un valor menor que cero (VAN < 0).',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: false,
           opciones: [
@@ -195,7 +195,7 @@ export default {
         {
           id: 8,
           texto:
-            'La Auditoría Energética Preliminar requiere el uso de equipos de medición de alta precisión (analizadores de redes, termografía) para determinar la Línea Base de forma exacta.',
+            'La auditoría energética preliminar requiere el uso de equipos de medición de alta precisión (analizadores de redes, termografía) para determinar la línea base de forma exacta.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: false,
           opciones: [
@@ -241,7 +241,7 @@ export default {
         {
           id: 10,
           texto:
-            'La Ley 2099 de 2021 es la normativa colombiana que proporciona beneficios e incentivos financieros, como la deducción del impuesto sobre la renta, para motivar la inversión en proyectos de Eficiencia Energética.',
+            'La Ley 2099 de 2021 es la normativa colombiana que proporciona beneficios e incentivos financieros, como la deducción del impuesto sobre la renta, para motivar la inversión en proyectos de eficiencia energética.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: false,
           opciones: [

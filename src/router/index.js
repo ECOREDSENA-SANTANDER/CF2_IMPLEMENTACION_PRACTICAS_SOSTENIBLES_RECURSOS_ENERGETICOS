@@ -61,11 +61,13 @@ const router = new VueRouter({
       name: 'glosario',
       component: Glosario,
     },
+    /*
     {
       path: '/complementario',
       name: 'complementario',
       component: Complementario,
     },
+    */
     {
       path: '/referencias',
       name: 'referencias',

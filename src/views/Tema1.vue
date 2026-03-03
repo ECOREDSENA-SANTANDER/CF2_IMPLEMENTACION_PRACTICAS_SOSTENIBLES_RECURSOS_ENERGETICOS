@@ -75,7 +75,7 @@
               figure
                 img(src='@/assets/curso/tema1/5.png', alt='Texto que describa la imagen')
             .col-lg-7.text-start
-              h4 Saberes de proceso aplicado
+              h4 Determinación de la línea base
               p.mb-0 #[b Concepto:] la línea base es el perfil de consumo histórico de referencia normalizado (ajustado por factores externos no controlables, como la producción o el clima).
 
 
@@ -89,7 +89,7 @@
               | Línea base de consumo de energía
             .bg2.mb-0.p-4
               img(src='@/assets/curso/tema1/6.svg', alt='Gráfico que presenta la evolución del consumo de energía en el tiempo, comparando energía de referencia, energía medida y energía ajustada, e indicando el ahorro obtenido tras la implementación de medidas de eficiencia energética.')
-            figcaption #[b Fuente:] Sin Ce O Dos (2018)
+            figcaption #[b Fuente:] SinCeO2 (2018)
 
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -105,7 +105,7 @@
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-6.mb-lg-0.mb-4
                 h4.mb-4 Análisis y elaboración de medidas
-                p.mb-0 A partir de los datos obtenidos en las mediciones, se realiza un análisis detallado que permite clasificar los equipos y procesos según su nivel de consumo energético. En esta fase se aplica el principio 80 / 20, identificando aquellos usos finales que concentran la mayor proporción del consumo total y que, por tanto, representan las principales oportunidades de mejora. Con base en este análisis, se formulan medidas técnicas y de gestión orientada a optimizar el desempeño energético, reducir costos operativos y minimizar los impactos ambientales asociados al consumo de energía.
+                p.mb-0 A partir de los datos obtenidos en las mediciones, se realiza un análisis detallado que permite clasificar los equipos y procesos según su nivel de consumo energético. En esta fase se aplica el principio 80 / 20, identificando aquellos usos finales que concentran la mayor proporción del consumo total y que, por tanto, representan las principales oportunidades de mejora. Con base en este análisis, se formulan medidas técnicas y de gestión orientadas a optimizar el desempeño energético, reducir costos operativos y minimizar los impactos ambientales asociados al consumo de energía.
               .col-lg-5.col-md-8.col-10
                 img.mb-0(alt="" src="@/assets/curso/tema1/8.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
@@ -124,13 +124,13 @@
           h4.mb-0 Ejemplo práctico: determinación de la línea base y ahorro potencial
 
 
-    p.mb-5(data-aos="fade-left") El siguiente ejemplo se centra en la sustitución de luminarias, una de las medidas de eficiencia más comunes, y muestra cómo se utiliza la Línea Base para cuantificar la oportunidad de ahorro.
+    p.mb-5(data-aos="fade-left") El siguiente ejemplo se centra en la sustitución de luminarias, una de las medidas de eficiencia más comunes, y muestra cómo se utiliza la línea base para cuantificar la oportunidad de ahorro.
 
 
     AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-0(data-aos="fade-left")
       .row.justify-content-center.align-items.p-0(titulo="Contexto del caso (fase de recolección de datos)")
         .col-lg-11.mb-0
-          p.mb-4 Una empresa industrial desea evaluar la viabilidad de reemplazar 300 luminarias fluorescentes T8 de 70W (incluyendo balasto) por luminarias LED de 30W en su área de producción.
+          p.mb-4 Una empresa industrial desea evaluar la viabilidad de reemplazar 300 luminarias fluorescentes T8 de 70 W (incluyendo balasto) por luminarias LED de 30 W en su área de producción.
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-6
               .titulo-sexto
@@ -151,13 +151,13 @@
                       td.bl 25 días / mes
                     tr
                       td.gr Costo unitario promedio (CU):
-                      td.gr $550 COP / kWh
+                      td.gr 550 COP / kWh
                     tr
                       td.bl Número de luminarias (N):
                       td.bl 300 unidades
       .row.justify-content-center.align-items.p-0(titulo="Determinación de la línea base (consumo actual)")
         .col-lg-11.mb-0
-          p.mb-4 La Línea Base (LB) se establece calculando el consumo y el costo mensual de la situación #[em sin intervención] (la tecnología actual).
+          p.mb-4 La Línea Base (LB) se establece calculando el consumo y el costo mensual de la situación sin intervención (la tecnología actual).
           h5.mb-3 Cálculo de Consumo de la Línea Base (CLB)
           p.mb-4 La potencia de la tecnología antigua es #[b P#[sub antigua] = 70  W = 0.070 kW]  
           h5.mb-3 Consumo mensual total (kWh):
@@ -165,7 +165,7 @@
             .col-lg-8
               .titulo-sexto.mb-4
                 h5 Figura 2. 
-                | Ecuación y desarrollo de ejercicio para cálculo de consumo mensual según ejercicio
+                | Ecuación y desarrollo de ejercicio para cálculo de consumo mensual
               .row.justify-content-center.align-items-center.mb-0
                 .col-lg-9
                   img.img-t.img-a(src='@/assets/curso/tema1/10.svg', alt='Cálculo del consumo energético de la línea base a partir de la potencia instalada, número de equipos y tiempo de operación mensual.')
@@ -174,7 +174,7 @@
             .col-lg-8
               .titulo-sexto.mb-4
                 h5 Figura 3. 
-                | Ecuación y desarrollo de ejercicio para cálculo de costo mensual según ejercicio
+                | Ecuación y desarrollo de ejercicio para cálculo de costo mensual
               .row.justify-content-center.align-items-center.mb-0
                 .col-lg-7
                   img.img-t.img-a(src='@/assets/curso/tema1/11.svg', alt='Cálculo del costo mensual actual de energía a partir del consumo de la línea base y el costo unitario por kilovatio hora.')
@@ -197,7 +197,7 @@
               .titulo-sexto.mb-4
                 h5 Figura 5. 
                 | Cálculo del ahorro energético y económico mensual
-              h5.mb-3.mx-3 Cálculo del Ahorro Potencial
+              h5.mb-3.mx-3 Cálculo del ahorro potencial
               h5.mb-3.mx-3 1. Ahorro de energía #[em (kWh)]
               .row.justify-content-center.align-items-center.mb-4
                 .col-lg-10
