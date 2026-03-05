@@ -96,7 +96,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Reducción de emisiones de CO2.',
+              texto: 'Reducción de emisiones de CO<sub>2</sub>.',
               esCorrecta: true,
             },
             {
@@ -207,7 +207,7 @@ export default {
             { id: 'a', texto: 'TIR', esCorrecta: false },
             { id: 'b', texto: 'VAN', esCorrecta: false },
             { id: 'c', texto: 'PR', esCorrecta: true },
-            { id: 'd', texto: 'CO2', esCorrecta: false },
+            { id: 'd', texto: 'CO<sub>2</sub>', esCorrecta: false },
           ],
           mensaje_correcto:
             'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
@@ -261,7 +261,8 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Objetivos de sostenibilidad (ejemplo: reducción de CO2).',
+              texto:
+                'Objetivos de sostenibilidad (ejemplo: reducción de CO<sub>2</sub>).',
               esCorrecta: true,
             },
             {
@@ -527,7 +528,8 @@ export default {
         },
         {
           id: 19,
-          texto: 'En el contexto de sostenibilidad, ¿qué representa el CO2?',
+          texto:
+            'En el contexto de sostenibilidad, ¿qué representa el CO<sub>2</sub>?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: false,
           opciones: [

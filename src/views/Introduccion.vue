@@ -18,7 +18,7 @@
             img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/intro/2.svg' alt='AvatarTop')
           .col-lg-10
             p.mb-4 Bienvenido al componente formativo “Implementación de prácticas sostenibles en gestión de recursos energéticos”. El contenido del curso ha sido diseñado para proporcionar la información necesaria que permita aprovechar de manera óptima este programa de formación, presentando los objetivos de aprendizaje, la estructura de los contenidos, las actividades a desarrollar, los criterios de evaluación y los recursos de apoyo disponibles.
-        p.mb-0 El componente se enfoca en la etapa clave de la proposición e implementación de soluciones, donde la Eficiencia Energética (EE) se consolida como un eje fundamental de la sostenibilidad, al convertir el ahorro de recursos en rentabilidad económica y en la reducción de impactos ambientales, en concordancia con lo establecido en la Ley 2099 de 2021 en Colombia. El contenido se estructura para facilitar la transición del análisis a la acción, iniciando con los Fundamentos de la Auditoría Energética (AE), la definición de la línea base de consumo y los objetivos de ahorro, y profundizando posteriormente en estrategias de intervención específicas por uso final en fuerza motriz, Iluminación y climatización.
+        p.mb-0 El componente se enfoca en la etapa clave de la proposición e implementación de soluciones, donde la Eficiencia Energética (EE) se consolida como un eje fundamental de la sostenibilidad, al convertir el ahorro de recursos en rentabilidad económica y en la reducción de impactos ambientales, en concordancia con lo establecido en la Ley 2099 de 2021 en Colombia. El contenido se estructura para facilitar la transición del análisis a la acción, iniciando con los Fundamentos de la Auditoría Energética (AE), la definición de la línea base de consumo y los objetivos de ahorro, y profundizando posteriormente en estrategias de intervención específicas por uso final en fuerza motriz, iluminación y climatización.
 
 
     .bg1.p-4.mb-5(data-aos="fade-left")
@@ -33,7 +33,7 @@
       .col-lg-12
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/SY6og-mgB0o?si=-8zbgvBG1UZI2S38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. 
+        figcaption Video. Acciones y estrategias de eficiencia energética
 
 </template>
 

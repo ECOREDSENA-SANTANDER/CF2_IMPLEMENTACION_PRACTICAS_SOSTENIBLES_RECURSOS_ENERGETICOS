@@ -70,7 +70,7 @@
           .tarjeta.bg11
             .p-4.p-lg-5
               h4.mb-4.text-center Definición
-              p.mb-0 Es la tasa de descuento (i) a la cual el #[b VAN] del proyecto se hace #[b cero] #[em (VAN = 0)]. Mide la rentabilidad intrínseca del proyecto en términos porcentuales.
+              p.mb-0 Es la tasa de descuento (i) a la cual el #[b VAN] del proyecto se hace #[b cero] (VAN = 0). Mide la rentabilidad intrínseca del proyecto en términos porcentuales.
       .col-md-6.col-lg-4
         .tarjeta-avatar
           img.imaa.my-4(src='@/assets/curso/tema3/6.svg' alt='')
@@ -181,7 +181,7 @@
         .col-lg-1
           img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/intro/3.svg' alt='AvatarTop')
         .col-lg-11
-          p.mb-0 Este ahorro económico mensual de 1.980.000 COP es el Flujo de caja anual que se utilizará para calcular los indicadores financieros (PR, VAN, TIR). Por ejemplo, si la inversión total ($CAPEX$) es de 30.000.000 COP, el Periodo de Recuperación (PR) inicial (sin considerar el valor del dinero en el tiempo) sería:
+          p.mb-0 Este ahorro económico mensual de 1.980.000 COP es el flujo de caja anual que se utilizará para calcular los indicadores financieros (PR, VAN, TIR). Por ejemplo, si la inversión total (CAPEX) es de 30.000.000 COP, el Periodo de Recuperación (PR) inicial (sin considerar el valor del dinero en el tiempo) sería:
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -218,7 +218,7 @@
         .col-lg-11.mb-0
           p.mb-4 El VAN determina si el proyecto genera riqueza real en el presente, trayendo los flujos de caja futuros a valor actual. 
           .row.justify-content-center.align-items-center.mb-5
-            .col-lg-4
+            .col-lg-5
               .titulo-sexto
                 h5 Figura 16.
                 | Ejercicio valor actual neto
