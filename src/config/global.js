@@ -197,12 +197,17 @@ export default {
     },
     {
       referencia:
+        'Gómez Inguanzo, J. M. (2018). La línea base y su importancia en la ISO 50001. SinCeODos.',
+      link: '',
+    },
+    {
+      referencia:
         'IPS Ingenieros. (2020). Aislamiento térmico: 2 tips para implementarlo.',
       link: '',
     },
     {
       referencia:
-        'LUP Motors. (2024). The difference between IE1, IE2, IE3, and IE4 motors.',
+        'Nie, S. (2024). The difference between IE1, IE2, IE3, and IE4 motors. LUPMOTORS.',
       link: '',
     },
     {
@@ -212,22 +217,22 @@ export default {
     },
     {
       referencia:
-        'Motores Eléctricos. (2025). Variador de frecuencia SINAMICS V20 Siemens.',
-      link: '',
-    },
-    {
-      referencia:
         'Naciones Unidas. (1987). Informe de la Comisión Mundial sobre Medio Ambiente y Desarrollo: Nuestro futuro común (Informe Brundtland). Asamblea General de las Naciones Unidas.',
       link: '',
     },
     {
       referencia:
-        'SinCeODos. (2018). La línea base y su importancia en la ISO 50001.',
+        'NIVIHE Motores y Accionamientos. (s.f.). Variador de frecuencia SINAMICS V20 Siemens. Motores Eléctricos.',
       link: '',
     },
     {
       referencia:
-        'WEG. (2025). Banco de condensadores trifásico con protección BCWP.',
+        'Tellez, S., & Duarte, O. (2016). Gestión de la Demanda en Redes Eléctricas Inteligentes: Revisión y Futuras Estrategias. RECIEEE Programa Estratégico Nacional de Gestión Integral de Energía, 1-7.',
+      link: '',
+    },
+    {
+      referencia:
+        'WEG. (s.f.). Banco de condensadores trifásico con protección BCWP.',
       link: '',
     },
   ],
@@ -237,7 +242,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
+          cargo:
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Dirección General',
         },
         {
@@ -276,8 +282,8 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'María Alejandra Vera Briceño',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -286,8 +292,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'Erika Daniela Manrique Rueda',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

@@ -7,45 +7,40 @@
         span 3
       h1 Viabilidad, seguimiento y propuesta de valor
 
-
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-1.col-md-2.col-5.mb-lg-0.mb-4.mb-md-0
-        img.img-t.img-a(src='@/assets/curso/tema3/1.svg', alt='')
+        img.img-t.img-a(src='@/assets/curso/tema3/1.svg')
       .col-lg-11.col-md-10
         p.mb-0  Una propuesta de eficiencia energética, por muy sólida que sea técnicamente, solo se aprueba si demuestra viabilidad económica. Esto requiere traducir los ahorros de energía (en kWh) en flujos de caja (dinero) y compararlos con la inversión inicial (CAPEX).
 
-    
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Indicadores financieros clave
-
 
     p.mb-5(data-aos="fade-right") Los siguientes indicadores permiten evaluar la rentabilidad del proyecto en el largo plazo:
 
-
     TabsC.color-primario.mb-5(data-aos="fade-left")
-      .bg3.p-lg-5.p-4(titulo="Periodo de Recuperación (PR)")
+      .bg3.p-lg-5.p-4(titulo="Periodo de recuperación (PR)")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-11
             .row.justify-content-center.align-items-start
               .col-lg-5.col-md-7.col-10.order-lg-2.order-md-2.order-2
-                img(src='@/assets/curso/tema3/2.png', alt='')
+                img(src='@/assets/curso/tema3/2.png')
               .col-lg-7.my-lg-4.order-lg-1.order-md-1.order-1
                 p.mb-4 #[b • Definición:] el tiempo (en meses o años) que tarda la empresa en recuperar la inversión inicial (CAPEX) únicamente con los ahorros generados por el proyecto.
                 h5.mb-4 • Fórmula simple (sin valor del dinero en el tiempo): 
                 .formula.mb-4
                   p.mb-0 #[math #[mi PR] #[mo =] #[mfrac #[mtext Inversión inicial] #[mtext Ahorro anual]]]
                 p.mb-lg-0.mb-4 #[b • Relevancia:] es el indicador más usado por la gerencia para medir el riesgo a corto plazo.
-      .bg3.p-lg-5.p-4(titulo="Valor Actual Neto (VAN)")
+      .bg3.p-lg-5.p-4(titulo="Valor actual neto (VAN)")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-11
             .row.justify-content-center.align-items-start
               .col-lg-5.col-md-7.col-10.order-lg-2.order-md-2.order-2
-                img(src='@/assets/curso/tema3/3.png', alt='')
+                img(src='@/assets/curso/tema3/3.png')
               .col-lg-7.my-lg-4.order-lg-1.order-md-1.order-1
-                p.mb-lg-0.mb-4 #[b • Definición:] es la diferencia entre el valor actual de los flujos de caja futuros (los ahorros anuales) y el valor actual de la inversión inicial. Utiliza una tasa de descuento (Tasa de Oportunidad o Tasa Mínima Aceptable de Retorno - TMAR) para traer el valor futuro del dinero al presente.
+                p.mb-lg-0.mb-4 #[b • Definición:] es la diferencia entre el valor actual de los flujos de caja futuros (los ahorros anuales) y el valor actual de la inversión inicial. Utiliza una tasa de descuento (tasa de oportunidad o tasa mínima aceptable de retorno - TMAR) para traer el valor futuro del dinero al presente.
 
-      
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-6
         .titulo-sexto.mb-4
@@ -56,39 +51,34 @@
         .bg1.p-4.mb-4
           img.mb-0.img-t.img-a(src='@/assets/curso/tema3/4.svg', alt='Fórmula y criterios del Valor Actual Neto (VAN) y la Tasa Interna de Retorno (TIR) para la evaluación de la rentabilidad de proyectos.')
 
-    
         p.mb-5 Donde i es la tasa de descuento y t es el periodo.
 
-
-        h5.mb-3 • Tasa Interna de Retorno (TIR):
-
+        h5.mb-3 • Tasa interna de retorno (TIR):
 
     .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-left")
       .col-md-6.col-lg-4
         .tarjeta-avatar
-          img.imaa.my-4(src='@/assets/curso/tema3/5.svg' alt='')
+          img.imaa.my-4(src='@/assets/curso/tema3/5.svg')
           .tarjeta.bg11
             .p-4.p-lg-5
               h4.mb-4.text-center Definición
               p.mb-0 Es la tasa de descuento (i) a la cual el #[b VAN] del proyecto se hace #[b cero] (VAN = 0). Mide la rentabilidad intrínseca del proyecto en términos porcentuales.
       .col-md-6.col-lg-4
         .tarjeta-avatar
-          img.imaa.my-4(src='@/assets/curso/tema3/6.svg' alt='')
+          img.imaa.my-4(src='@/assets/curso/tema3/6.svg')
           .tarjeta.bg11
             .p-4.p-lg-5
               h4.mb-4.text-center Criterio
               p.mb-0 #[b Criterio:] Si #[b TIR > i] (TMAR), el proyecto es aceptado. Si la TIR es menor que la tasa de oportunidad de la empresa, es mejor invertir el dinero en otra parte.
-
     
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 El rol de los incentivos fiscales (Ley 2099 de 2021)
-
 
     .bg12.mb-0(data-aos="fade-left")
       .row.justify-content-center.align-items-stretch.mb-5
         .col-lg-3.pe-lg-0.h-100
-          img.mb-0.img-t.img-a(src='@/assets/curso/tema3/7.svg', alt='')
+          img.mb-0.img-t.img-a(src='@/assets/curso/tema3/7.svg')
         .col-lg-6.ps-lg-0.pe-lg-0
           .bg10.p-4.h-100
             p.mb-4.mx-lg-4.mt-lg-4 Es crucial incluir los beneficios tributarios ofrecidos por la legislación colombiana (Ley 2099 de 2021) en el análisis financiero, ya que reducen el CAPEX y aumentan la TIR:
@@ -100,20 +90,17 @@
                 i.fas.fa-angle-right
                 p.mb-0 #[b Exclusión de IVA y arancel:] exención de estos impuestos para los equipos y servicios asociados a la EE. 
         .col-lg-3.ps-lg-0.h-100
-          img.mb-0.img-t.img-a(src='@/assets/curso/tema3/8.svg', alt='')
-
+          img.mb-0.img-t.img-a(src='@/assets/curso/tema3/8.svg')
 
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Seguimiento y medición (M&V)
 
-    
     p.mb-5(data-aos="fade-left") La medición y verificación (M&V) es la práctica de cuantificar los ahorros reales generados por una medida de eficiencia energética, asegurando que las proyecciones iniciales se cumplan.
-
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-6.col-md-8.col-10
-        img.mb-lg-0.mb-5(src='@/assets/curso/tema3/9.png', alt='')
+        img.mb-lg-0.mb-5(src='@/assets/curso/tema3/9.png')
       .col-lg-6
         LineaTiempoD.color-secundario.activo
           .row.justify-content-center.align-items-center.mb-0(numero="A" titulo="La necesidad de M&V")
@@ -124,19 +111,16 @@
               ul.lista-ul.mb-0
                 li.d-flex.mb-3
                   i.fas.fa-angle-right
-                  p.mb-0 #[b Definición:] el #[em International Performance Measurement and Verification Protocol] (IPMVP) es el estándar global que define los procedimientos para medir, verificar y reportar los ahorros.
+                  p.mb-0 #[b Definición:] el Protocolo Internacional de Medición y Verificación del Desempeño (IPMVP, por sus siglas en inglés) es el estándar global que define los procedimientos para medir, verificar y reportar los ahorros.
                 li.d-flex.mb-0
                   i.fas.fa-angle-right
                   p.mb-0 #[b Propósito:] da credibilidad a los ahorros reportados, lo cual es vital para los contratos de rendimiento energético y para justificar el uso de incentivos fiscales. 
 
-
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Propuesta de valor sostenible
 
-    
     p.mb-5(data-aos="fade-right") La propuesta final debe articular el valor técnico y financiero con la visión estratégica de la sostenibilidad de la empresa (los tres pilares).
-
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
@@ -145,13 +129,12 @@
         .ssu.p-lg-2.p-3.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h4.mb-0 Articulación de la propuesta
 
-    
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-right")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg8.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-4.mb-4.my-4
-              img(src='@/assets/curso/tema3/10.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema3/10.svg')
           .bg9.p-1.mb-4
             h4.text-center.mb-0.ps-lg-4.pe-lg-4.ps-3.pe-3 Valor económico
           p.mb-2.text-center Ahorro en costos operativos y rentabilidad (VAN positivo).
@@ -159,7 +142,7 @@
         .h-100.bg8.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-4.mb-4.my-4
-              img(src='@/assets/curso/tema3/11.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema3/11.svg')
           .bg9.p-1.mb-4
             h4.text-center.mb-0.ps-lg-4.pe-lg-4.ps-3.pe-3 Valor ambiental
           p.mb-2.text-center Cálculo de la reducción de la huella de carbono (toneladas de CO#[sub 2] evitadas), utilizando el factor de emisión de la matriz colombiana.
@@ -167,22 +150,19 @@
         .h-100.bg8.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-4.mb-4.my-4
-              img(src='@/assets/curso/tema3/12.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema3/12.svg')
           .bg9.p-1.mb-4
             h4.text-center.mb-0.ps-lg-4.pe-lg-4.ps-3.pe-3 Valor social
           p.mb-2.text-center Mejora en la calidad del ambiente laboral (ejemplo: mejor iluminación LED) y cumplimiento normativo (responsabilidad social corporativa).
 
-    
     p.mb-5(data-aos="fade-right") Teniendo en cuenta el ejercicio desarrollado previamente, se tomarán los resultados para establecer la propuesta de valor.
-
 
     .bg1.p-4.mb-5(data-aos="fade-left")
       .row.justify-content-center
         .col-lg-1
-          img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/intro/3.svg' alt='AvatarTop')
+          img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/intro/3.svg')
         .col-lg-11
-          p.mb-0 Este ahorro económico mensual de 1.980.000 COP es el flujo de caja anual que se utilizará para calcular los indicadores financieros (PR, VAN, TIR). Por ejemplo, si la inversión total (CAPEX) es de 30.000.000 COP, el Periodo de Recuperación (PR) inicial (sin considerar el valor del dinero en el tiempo) sería:
-
+          p.mb-0 Este ahorro económico mensual de 1.980.000 COP es el flujo de caja anual que se utilizará para calcular los indicadores financieros (PR, VAN, TIR). Por ejemplo, si la inversión total (CAPEX) es de 30.000.000 COP, el periodo de recuperación (PR) inicial (sin considerar el valor del dinero en el tiempo) sería:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-6
@@ -191,19 +171,16 @@
           | Ejercicio periodo de recuperación parte 1
         img.mb-4.img-t.img-a(src='@/assets/curso/tema3/13.svg', alt='Fórmula y cálculo del Período de Recuperación (PR) en meses a partir de la inversión total y el ahorro mensual.')
         .bg1.p-4
-          p.mb-0 Retomando el caso práctico: la inversión inicial (CAPEX) es de 30.000.000 COP y el ahorro económico anual es de 23.760.000 COP (1.980.000 COP / mes x 12 meses).
-
+          p.mb-0 Retomando el caso práctico: la inversión inicial (CAPEX) es de 30.000.000 COP y el ahorro económico anual es de 23.760.000 COP (1.980.000 COP/mes x 12 meses).
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Cálculo de indicadores clave
-
 
     p.mb-5(data-aos="fade-right") Para evaluar la viabilidad económica, utilizaremos los tres indicadores fundamentales, asumiendo una vida útil del proyecto (N) de 5 años y una tasa de descuento (i) o TMAR del 10 % anual (la tasa mínima que la empresa acepta ganar).
 
-    
     AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-5(data-aos="fade-left")
-      .row.justify-content-center.align-items.p-0(titulo="Periodo de Recuperación (PR) simple")
+      .row.justify-content-center.align-items.p-0(titulo="Periodo de recuperación (PR) simple")
         .col-lg-11.mb-0
           p.mb-4 Este indicador determina el riesgo a corto plazo sin considerar el valor del dinero en el tiempo.
           .row.justify-content-center.align-items-center.mb-4
@@ -213,8 +190,8 @@
                 | Ejercicio periodo de recuperación parte 2
               .bg-white.p-4
                 img.mb-0.img-t.img-a(src='@/assets/curso/tema3/14.svg', alt='Fórmula y cálculo del Período de Recuperación (PR) en años, basado en la inversión inicial y el ahorro anual.')
-          p.mb-0 #[b Conclusión pr:] la inversión se recupera en aproximadamente un año y tres meses, lo cual es altamente atractivo.
-      .row.justify-content-center.align-items.p-0(titulo="Valor Actual Neto (VAN)")
+          p.mb-0 #[b Conclusión PR:] la inversión se recupera en aproximadamente un año y tres meses, lo cual es altamente atractivo.
+      .row.justify-content-center.align-items.p-0(titulo="Valor actual neto (VAN)")
         .col-lg-11.mb-0
           p.mb-4 El VAN determina si el proyecto genera riqueza real en el presente, trayendo los flujos de caja futuros a valor actual. 
           .row.justify-content-center.align-items-center.mb-5
@@ -225,7 +202,7 @@
               img.mb-0.img-t.img-a(src='@/assets/curso/tema3/15.svg', alt='Ejemplo de cálculo del Valor Actual Neto (VAN) que presenta la fórmula aplicada, los flujos de caja descontados por año y el resultado final del VAN para un proyecto de inversión.')
           .titulo-sexto
             h5 Tabla 3. 
-            | Valor Actual Neto (VAN)
+            | Valor actual neto (VAN)
           .tabla-a.tab2.mb-4
             table
               thead
@@ -269,7 +246,7 @@
                   td(colspan="2").text-center #[b VAN]
                   td(colspan="2").text-right.pe-lg-5 +$80.073.676
           p.mb-0 Criterio VAN: Dado que VAN > 0 ($80,073,676), el proyecto es altamente rentable y debe ser aceptado.
-      .row.justify-content-center.align-items.p-0(titulo="Tasa Interna de Retorno (TIR)")
+      .row.justify-content-center.align-items.p-0(titulo="Tasa interna de retorno (TIR)")
         .col-lg-11.mb-0
           p.mb-4 La TIR es el porcentaje de rentabilidad que genera el proyecto (cuando VAN=0).
           .row.justify-content-center.align-items-center.mb-0
@@ -279,19 +256,17 @@
                 | Ejercicio tasa interna de retorno
               img.mb-0.img-t.img-a(src='@/assets/curso/tema3/16.svg', alt='Resultado de la Tasa Interna de Retorno (TIR) y criterio de aceptación del proyecto al compararla con la tasa de descuento.')
   
-
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Vínculo con sostenibilidad y normativa
 
-    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         p.mb-4 La propuesta final de valor debe incluir estos cálculos:
         .bg1.p-4.mb-0(data-aos="fade-left")
           .row.justify-content-center.my-lg-3
             .col-lg-2
-              img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/intro/3.svg' alt='AvatarTop')
+              img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/intro/3.svg')
             .col-lg-10
               ul.lista-ul.mb-1
                 li.d-flex.mb-3
@@ -299,26 +274,24 @@
                   p.mb-0 #[b Valor financiero:] se garantiza una inversión con un PR de 1.26 años y una TIR del 76.57 %.
                 li.d-flex.mb-3
                   i.fas.fa-angle-right
-                  p.mb-0 #[b Valor normativo:] el proyecto califica para los Incentivos Tributarios de la Ley 2099 de 2021 (deducción en renta, exclusión de IVA), lo cual mejora aún más la TIR calculada.
+                  p.mb-0 #[b Valor normativo:] el proyecto califica para los incentivos tributarios de la Ley 2099 de 2021 (deducción en renta, exclusión de IVA), lo cual mejora aún más la TIR calculada.
                 li.d-flex.mb-0
                   i.fas.fa-angle-right
                   p.mb-0 #[b Valor ambiental:] el ahorro anual de 3.600 COP kWh / mes x 12 meses = 43.200 COP kWh / año se traduce en una reducción significativa de la huella de carbono de la empresa.
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema3/17.png', alt='')
-
+        img(src='@/assets/curso/tema3/17.png')
 
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
-      h3.mb-0 Medición y Verificación (M&V) (recapitulación)
-
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
+      h3.mb-0 Medición y verificación (M&V) (recapitulación)
   
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema3/18.png', alt='')
+        img(src='@/assets/curso/tema3/18.png')
       .col-lg-7
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-2.col-md-2.col-5
-            img.img-t.img-a.mb-lg-0.mb-4.mb-md-0(src='@/assets/curso/tema3/19.svg', alt='')
+            img.img-t.img-a.mb-lg-0.mb-4.mb-md-0(src='@/assets/curso/tema3/19.svg')
           .col-lg-10.col-md-10
             p.mb-0 Para asegurar que estos $80 millones de VAN se materialicen, es obligatorio implementar el M&V bajo el Protocolo IPMVP. Esto implica:
         .bg14.p-4

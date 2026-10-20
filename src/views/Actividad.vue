@@ -40,18 +40,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'La Auditoría Energética (AE).',
+              texto: 'La auditoría energética (AE).',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'La Eficiencia Energética (EE).',
+              texto: 'La eficiencia energética (EE).',
               esCorrecta: true,
             },
-            { id: 'c', texto: 'La Ley 2099 de 2021.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'La Ley 2099 de 2021.',
+              esCorrecta: false,
+            },
             {
               id: 'd',
-              texto: 'La Tasa Interna de Retorno (TIR).',
+              texto: 'La tasa interna de retorno (TIR).',
               esCorrecta: false,
             },
           ],
@@ -67,10 +71,26 @@ export default {
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Ley 1715 de 2014.', esCorrecta: false },
-            { id: 'b', texto: 'Ley 99 de 1993.', esCorrecta: false },
-            { id: 'c', texto: 'Ley 2099 de 2021.', esCorrecta: true },
-            { id: 'd', texto: 'Decreto 1076 de 2015.', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Ley 1715 de 2014.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Ley 99 de 1993.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ley 2099 de 2021.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Decreto 1076 de 2015.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
@@ -91,7 +111,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Cálculo del Valor Actual Neto (VAN).',
+              texto: 'Cálculo del valor actual neto (VAN).',
               esCorrecta: false,
             },
             {
@@ -101,7 +121,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Fundamentos de la Auditoría Energética (AE).',
+              texto: 'Fundamentos de la auditoría energética (AE).',
               esCorrecta: false,
             },
           ],
@@ -117,13 +137,21 @@ export default {
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'La línea base de consumo.', esCorrecta: true },
+            {
+              id: 'a',
+              texto: 'La línea base de consumo.',
+              esCorrecta: true,
+            },
             {
               id: 'b',
-              texto: 'El presupuesto de marketing.',
+              texto: 'El presupuesto de <em>marketing.</em>',
               esCorrecta: false,
             },
-            { id: 'c', texto: 'La cantidad de empleados.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'La cantidad de empleados.',
+              esCorrecta: false,
+            },
             {
               id: 'd',
               texto: 'El organigrama de la empresa.',
@@ -142,7 +170,11 @@ export default {
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Transporte y logística.', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Transporte y logística.',
+              esCorrecta: false,
+            },
             {
               id: 'b',
               texto: 'Fuerza motriz, iluminación y climatización.',
@@ -178,7 +210,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Una Propuesta de Valor integral.',
+              texto: 'Una propuesta de valor integral.',
               esCorrecta: true,
             },
             {
@@ -200,14 +232,30 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál de estos indicadores financieros se utiliza para determinar el Período de Recuperación de la inversión?',
+            '¿Cuál de estos indicadores financieros se utiliza para determinar el período de recuperación de la inversión?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'TIR', esCorrecta: false },
-            { id: 'b', texto: 'VAN', esCorrecta: false },
-            { id: 'c', texto: 'PR', esCorrecta: true },
-            { id: 'd', texto: 'CO<sub>2</sub>', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'TIR',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'VAN',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'PR',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'CO<sub>2</sub>',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
@@ -217,7 +265,7 @@ export default {
         {
           id: 8,
           texto:
-            '¿Qué representa la Tasa Interna de Retorno (TIR) en la evaluación de proyectos energéticos?',
+            '¿Qué representa la tasa interna de retorno (TIR) en la evaluación de proyectos energéticos?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: false,
           opciones: [
@@ -293,10 +341,14 @@ export default {
               texto: 'Comprar el equipo más barato.',
               esCorrecta: false,
             },
-            { id: 'b', texto: 'Ignorar la línea base.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Ignorar la línea base.',
+              esCorrecta: false,
+            },
             {
               id: 'c',
-              texto: 'La formulación de una Propuesta de Valor integral.',
+              texto: 'La formulación de una propuesta de valor integral.',
               esCorrecta: true,
             },
             {
@@ -319,7 +371,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Vender software de auditoría.',
+              texto: 'Vender <em>software</em> de auditoría.',
               esCorrecta: false,
             },
             {
@@ -347,7 +399,7 @@ export default {
         {
           id: 12,
           texto:
-            '¿Qué etapa es considerada clave para la consolidación de la Eficiencia Energética?',
+            '¿Qué etapa es considerada clave para la consolidación de la eficiencia energética?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: false,
           opciones: [
@@ -385,14 +437,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Vehículo de Acción Nacional.',
+              texto: 'Vehículo de acción nacional.',
               esCorrecta: false,
             },
-            { id: 'b', texto: 'Valor Actual Neto.', esCorrecta: true },
-            { id: 'c', texto: 'Volumen de Ahorro Nominal.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Valor actual neto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Volumen de ahorro nominal.',
+              esCorrecta: false,
+            },
             {
               id: 'd',
-              texto: 'Validación de Acciones Nuevas.',
+              texto: 'Validación de acciones nuevas.',
               esCorrecta: false,
             },
           ],
@@ -408,7 +468,11 @@ export default {
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Estudio de las nubes.', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Estudio de las nubes.',
+              esCorrecta: false,
+            },
             {
               id: 'b',
               texto: 'Ajuste de salarios por inflación.',
@@ -433,7 +497,7 @@ export default {
         {
           id: 15,
           texto:
-            '¿Cuál es el beneficio económico directo de la Eficiencia Energética según el texto?',
+            '¿Cuál es el beneficio económico directo de la eficiencia energética según el texto?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: false,
           opciones: [
@@ -452,7 +516,11 @@ export default {
               texto: 'Aumento del precio de los productos.',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Pago de más impuestos.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Pago de más impuestos.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
@@ -466,14 +534,26 @@ export default {
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Paneles solares.', esCorrecta: false },
-            { id: 'b', texto: 'Bombillas LED.', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Paneles solares.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Bombillas LED.',
+              esCorrecta: false,
+            },
             {
               id: 'c',
               texto: 'Motores eléctricos industriales.',
               esCorrecta: true,
             },
-            { id: 'd', texto: 'Pantallas de computador.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Pantallas de computador.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
@@ -492,9 +572,21 @@ export default {
               texto: 'Para cumplir con la ley de gravedad.',
               esCorrecta: false,
             },
-            { id: 'b', texto: 'Para la toma de decisiones.', esCorrecta: true },
-            { id: 'c', texto: 'Para despedir empleados.', esCorrecta: false },
-            { id: 'd', texto: 'Para decorar las oficinas.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Para la toma de decisiones.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Para despedir empleados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Para decorar las oficinas.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
@@ -508,8 +600,16 @@ export default {
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Criterios de evaluación.', esCorrecta: true },
-            { id: 'b', texto: 'Criterios de elegancia.', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Criterios de evaluación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Criterios de elegancia.',
+              esCorrecta: false,
+            },
             {
               id: 'c',
               texto: 'Criterios de velocidad de internet.',
@@ -566,10 +666,26 @@ export default {
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Del análisis a la acción.', esCorrecta: true },
-            { id: 'b', texto: 'De la acción al olvido.', esCorrecta: false },
-            { id: 'c', texto: 'De la teoría a más teoría.', esCorrecta: false },
-            { id: 'd', texto: 'De la oficina al parque.', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Del análisis a la acción.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'De la acción al olvido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'De la teoría a más teoría.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'De la oficina al parque.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
