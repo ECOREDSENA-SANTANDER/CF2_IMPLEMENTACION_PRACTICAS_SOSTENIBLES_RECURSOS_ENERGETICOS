@@ -82,7 +82,7 @@
       .col-lg-12 
         .tarjetaf.p-4.mb-0
           SlyderA(tipo="b")
-            .row.justify-content-center.align-items-start.p-0.p-lg-4
+            .row.justify-content-center.align-items-start.p-0.p-lg-4.mb-0
               .col-lg-6.mb-lg-0.mb-4
                 h4.mb-4 Sustitución tecnológica
                 ul.lista-ul.mb-0
@@ -94,7 +94,7 @@
                     p.mb-0 #[b Beneficio:] una reducción directa del consumo de hasta el 50 - 70 % respecto a la tecnología convencional.
               .col-lg-5.col-md-8.col-10
                 img.mb-0(src="@/assets/curso/tema2/5.png")
-            .row.justify-content-center.align-items-start.p-0.p-lg-4
+            .row.justify-content-center.align-items-start.p-0.p-lg-4.mb-0
               .col-lg-6.mb-lg-0.mb-4
                 h4.mb-4 Sistemas de control inteligente
                 ul.lista-ul.mb-0
@@ -109,7 +109,6 @@
                   h5 Figura 9. 
                   | Cambio de iluminación
                 img.mb-0(alt="Persona realizando mantenimiento o reemplazo de una luminaria en el techo, como parte de actividades de mejora en sistemas de iluminación." src="@/assets/curso/tema2/6.png")
-                figcaption Fuente: Habitissimo (2025).
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
@@ -176,7 +175,6 @@
           h5 Figura 10. 
           | Aislamiento térmico
         img(src='@/assets/curso/tema2/11.png', alt='Técnico realizando mantenimiento e instalación de ductos de climatización con aislamiento térmico en un sistema HVAC.')
-        figcaption Fuente: IPS ingenieros (2020). 
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
