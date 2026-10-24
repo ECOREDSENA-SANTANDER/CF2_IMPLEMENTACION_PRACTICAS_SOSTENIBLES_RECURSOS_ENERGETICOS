@@ -42,11 +42,7 @@ export default {
               texto: 'La eficiencia energética (EE).',
               esCorrecta: true,
             },
-            {
-              id: 'c',
-              texto: 'La Ley 2099 de 2021.',
-              esCorrecta: false,
-            },
+            { id: 'c', texto: 'La Ley 2099 de 2021.', esCorrecta: false },
             {
               id: 'd',
               texto: 'La tasa interna de retorno (TIR).',
@@ -65,26 +61,10 @@ export default {
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: false,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Ley 1715 de 2014.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ley 99 de 1993.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Ley 2099 de 2021.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: 'Decreto 1076 de 2015.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Ley 1715 de 2014.', esCorrecta: false },
+            { id: 'b', texto: 'Ley 99 de 1993.', esCorrecta: false },
+            { id: 'c', texto: 'Ley 2099 de 2021.', esCorrecta: true },
+            { id: 'd', texto: 'Decreto 1076 de 2015.', esCorrecta: false },
           ],
           mensaje_correcto:
             'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
@@ -131,21 +111,13 @@ export default {
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: false,
           opciones: [
-            {
-              id: 'a',
-              texto: 'La línea base de consumo.',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'La línea base de consumo.', esCorrecta: true },
             {
               id: 'b',
               texto: 'El presupuesto de <em>marketing.</em>',
               esCorrecta: false,
             },
-            {
-              id: 'c',
-              texto: 'La cantidad de empleados.',
-              esCorrecta: false,
-            },
+            { id: 'c', texto: 'La cantidad de empleados.', esCorrecta: false },
             {
               id: 'd',
               texto: 'El organigrama de la empresa.',
@@ -164,11 +136,7 @@ export default {
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: false,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Transporte y logística.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Transporte y logística.', esCorrecta: false },
             {
               id: 'b',
               texto: 'Fuerza motriz, iluminación y climatización.',
@@ -230,26 +198,10 @@ export default {
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: false,
           opciones: [
-            {
-              id: 'a',
-              texto: 'TIR',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'VAN',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'PR',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: 'CO<sub>2</sub>',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'TIR', esCorrecta: false },
+            { id: 'b', texto: 'VAN', esCorrecta: false },
+            { id: 'c', texto: 'PR', esCorrecta: true },
+            { id: 'd', texto: 'CO<sub>2</sub>', esCorrecta: false },
           ],
           mensaje_correcto:
             'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
@@ -335,11 +287,7 @@ export default {
               texto: 'Comprar el equipo más barato.',
               esCorrecta: false,
             },
-            {
-              id: 'b',
-              texto: 'Ignorar la línea base.',
-              esCorrecta: false,
-            },
+            { id: 'b', texto: 'Ignorar la línea base.', esCorrecta: false },
             {
               id: 'c',
               texto: 'La formulación de una propuesta de valor integral.',
@@ -359,36 +307,38 @@ export default {
         {
           id: 11,
           texto:
-            '¿Cuál es el propósito principal del diseño del contenido del curso?',
+            '¿Cuál es el propósito de la medición y verificación (M&V) después de implementar una medida de eficiencia energética?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
-              texto: 'Vender <em>software</em> de auditoría.',
+              texto:
+                'Determinar el número de equipos instalados en la organización.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Proporcionar información para aprovechar el programa de formación.',
+                'Comparar el consumo posterior a la intervención con la línea base ajustada para verificar los ahorros obtenidos.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Evaluar el desempeño del instructor.',
+              texto: 'Establecer los horarios laborales de los trabajadores.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Redactar leyes nuevas para Colombia.',
+              texto:
+                'Calcular únicamente el costo inicial de adquisición de los equipos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
+            'Se evidencia una adecuada comprensión del proceso de medición y verificación del desempeño energético. Identifica que comparar el consumo posterior a la intervención con la línea base ajustada permite comprobar los ahorros obtenidos.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Se recomienda revisar los contenidos del componente formativo relacionados con la medición y verificación del desempeño energético, la línea base ajustada y los procedimientos para comprobar los ahorros reales después de implementar medidas de eficiencia energética.',
         },
         {
           id: 12,
@@ -434,16 +384,8 @@ export default {
               texto: 'Vehículo de acción nacional.',
               esCorrecta: false,
             },
-            {
-              id: 'b',
-              texto: 'Valor actual neto.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Volumen de ahorro nominal.',
-              esCorrecta: false,
-            },
+            { id: 'b', texto: 'Valor actual neto.', esCorrecta: true },
+            { id: 'c', texto: 'Volumen de ahorro nominal.', esCorrecta: false },
             {
               id: 'd',
               texto: 'Validación de acciones nuevas.',
@@ -462,11 +404,7 @@ export default {
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: false,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Estudio de las nubes.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Estudio de las nubes.', esCorrecta: false },
             {
               id: 'b',
               texto: 'Ajuste de salarios por inflación.',
@@ -510,11 +448,7 @@ export default {
               texto: 'Aumento del precio de los productos.',
               esCorrecta: false,
             },
-            {
-              id: 'd',
-              texto: 'Pago de más impuestos.',
-              esCorrecta: false,
-            },
+            { id: 'd', texto: 'Pago de más impuestos.', esCorrecta: false },
           ],
           mensaje_correcto:
             'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
@@ -528,26 +462,14 @@ export default {
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: false,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Paneles solares.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Bombillas LED.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Paneles solares.', esCorrecta: false },
+            { id: 'b', texto: 'Bombillas LED.', esCorrecta: false },
             {
               id: 'c',
               texto: 'Motores eléctricos industriales.',
               esCorrecta: true,
             },
-            {
-              id: 'd',
-              texto: 'Pantallas de computador.',
-              esCorrecta: false,
-            },
+            { id: 'd', texto: 'Pantallas de computador.', esCorrecta: false },
           ],
           mensaje_correcto:
             'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
@@ -566,21 +488,9 @@ export default {
               texto: 'Para cumplir con la ley de gravedad.',
               esCorrecta: false,
             },
-            {
-              id: 'b',
-              texto: 'Para la toma de decisiones.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Para despedir empleados.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Para decorar las oficinas.',
-              esCorrecta: false,
-            },
+            { id: 'b', texto: 'Para la toma de decisiones.', esCorrecta: true },
+            { id: 'c', texto: 'Para despedir empleados.', esCorrecta: false },
+            { id: 'd', texto: 'Para decorar las oficinas.', esCorrecta: false },
           ],
           mensaje_correcto:
             'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
@@ -590,35 +500,39 @@ export default {
         {
           id: 18,
           texto:
-            '¿Cuál es uno de los criterios que se presentan para aprovechar el programa de formación?',
+            '¿Qué acción permite aplicar la gestión de la demanda para reducir los costos de energía durante las horas pico?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
-              texto: 'Criterios de evaluación.',
-              esCorrecta: true,
+              texto:
+                'Mantener todos los equipos funcionando a máxima capacidad durante todo el día.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Criterios de elegancia.',
+              texto:
+                'Incrementar el consumo energético durante los periodos de mayor demanda.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Criterios de velocidad de internet.',
-              esCorrecta: false,
+              texto:
+                'Trasladar el funcionamiento de procesos no esenciales a las horas valle, cuando el costo de la energía es menor.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Criterios de selección de personal.',
+              texto:
+                'Reemplazar todos los equipos eléctricos sin analizar sus horarios de operación.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
+            'Se evidencia una adecuada comprensión de la gestión de la demanda energética. Reconoce que trasladar el consumo de las horas pico a las horas valle puede reducir los costos operativos sin necesariamente disminuir el consumo total de energía.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Se recomienda revisar los contenidos del componente formativo relacionados con la gestión de la demanda energética, el desplazamiento de cargas y la programación de procesos en horarios de menor costo para optimizar los gastos asociados al consumo de energía.',
         },
         {
           id: 19,
@@ -656,35 +570,39 @@ export default {
         {
           id: 20,
           texto:
-            '¿Hacia dónde facilita el contenido la transición del aprendiz?',
+            '¿Qué criterio permite determinar si un proyecto de eficiencia energética genera rentabilidad según el valor actual neto (VAN)?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
-              texto: 'Del análisis a la acción.',
-              esCorrecta: true,
+              texto:
+                'Que el consumo energético permanezca igual después de la intervención.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'De la acción al olvido.',
+              texto:
+                'Que la inversión inicial sea mayor que los ahorros económicos proyectados.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'De la teoría a más teoría.',
+              texto:
+                'Que el proyecto no requiera seguimiento ni medición de resultados.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'De la oficina al parque.',
-              esCorrecta: false,
+              texto:
+                'Que el valor actual neto sea positivo, lo que indica que el proyecto genera valor económico.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un buen dominio de los conceptos sobre Acciones y estrategias de eficiencia energética.',
+            'Se evidencia una adecuada comprensión del valor actual neto como indicador financiero. Identifica que un VAN positivo indica que el proyecto genera valor económico y constituye un criterio favorable para su aceptación.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Se recomienda revisar los contenidos del componente formativo relacionados con la viabilidad económica de los proyectos de eficiencia energética, especialmente la interpretación del valor actual neto (VAN), la tasa interna de retorno (TIR) y el período de recuperación de la inversión (PR).',
         },
       ],
       mensaje_final_aprobado:
