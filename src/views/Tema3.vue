@@ -44,7 +44,7 @@
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-6
         .titulo-sexto.mb-4
-          h5 Figura 13. 
+          h5 Figura 12. 
           | Fórmula y criterio de VAN
         p.mb-4 #[b * Criterio:] Si VAN > 0, el proyecto es rentable. Si VAN = 0, el proyecto es indiferente. Si VAN < 0, el proyecto se debe rechazar. 
         p.mb-4 #[b * Fórmula (generalizada):]
@@ -167,7 +167,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-6
         .titulo-sexto.mb-4
-          h5 Figura 14. 
+          h5 Figura 13. 
           | Ejercicio periodo de recuperación parte 1
         img.mb-4.img-t.img-a(src='@/assets/curso/tema3/13.svg', alt='Fórmula y cálculo del Período de Recuperación (PR) en meses a partir de la inversión total y el ahorro mensual.')
         .bg1.p-4
@@ -186,7 +186,7 @@
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-6
               .titulo-sexto
-                h5 Figura 15.
+                h5 Figura 14.
                 | Ejercicio periodo de recuperación parte 2
               .bg-white.p-4
                 img.mb-0.img-t.img-a(src='@/assets/curso/tema3/14.svg', alt='Fórmula y cálculo del Período de Recuperación (PR) en años, basado en la inversión inicial y el ahorro anual.')
@@ -197,7 +197,7 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-5
               .titulo-sexto
-                h5 Figura 16.
+                h5 Figura 15.
                 | Ejercicio valor actual neto
               img.mb-0.img-t.img-a(src='@/assets/curso/tema3/15.svg', alt='Ejemplo de cálculo del Valor Actual Neto (VAN) que presenta la fórmula aplicada, los flujos de caja descontados por año y el resultado final del VAN para un proyecto de inversión.')
           .titulo-sexto
@@ -252,7 +252,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-6
               .titulo-sexto
-                h5 Figura 17.
+                h5 Figura 16.
                 | Ejercicio tasa interna de retorno
               img.mb-0.img-t.img-a(src='@/assets/curso/tema3/16.svg', alt='Resultado de la Tasa Interna de Retorno (TIR) y criterio de aceptación del proyecto al compararla con la tasa de descuento.')
   

@@ -105,10 +105,7 @@
                     i.fas.fa-angle-right
                     p.mb-0 #[b Gestión de la demanda (GDE):] uso de temporizadores y horarios para apagar luces en horas no operativas.
               .col-lg-5.col-md-8.col-10
-                .titulo-sexto.mb-4
-                  h5 Figura 9. 
-                  | Cambio de iluminación
-                img.mb-0(alt="Persona realizando mantenimiento o reemplazo de una luminaria en el techo, como parte de actividades de mejora en sistemas de iluminación." src="@/assets/curso/tema2/6.png")
+                img.mb-0(src="@/assets/curso/tema2/6.png")
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
@@ -172,7 +169,7 @@
         img.img-t.img-d.d-none.d-lg-block(src='@/assets/curso/tema2/10.svg')
       .col-lg-5
         .titulo-sexto.mb-4
-          h5 Figura 10. 
+          h5 Figura 9. 
           | Aislamiento térmico
         img(src='@/assets/curso/tema2/11.png', alt='Técnico realizando mantenimiento e instalación de ductos de climatización con aislamiento térmico en un sistema HVAC.')
 
@@ -255,7 +252,7 @@
         .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
           .col-lg-4
             .titulo-sexto.mb-4
-              h5 Figura 11. 
+              h5 Figura 10. 
               | Gestión de la demanda
             img.mb-4(src='@/assets/curso/tema2/20.svg', alt='Diagrama comparativo entre Respuesta a la Demanda (DR) y Gestión de la Demanda (DSM) en redes eléctricas, mostrando su interacción con los usuarios finales y las Smart Grids.')
             figcaption Nota. Adaptado de Evolución de DR a DSM, por Tellez & Duarte, 2016. 
@@ -338,7 +335,14 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/24.png')})`}"
       )
       .bloque-texto-g__texto.p-lg-5.p-4.p-md-4
-        h4.mb-5 Criterios normativos para la selección de equipos eléctricos (RETIQ)
+        .row.justify-content-center.align-items-center.mb-0.d-none.d-lg-block(data-aos="fade-right")
+          .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
+            .subtitu
+          .col.ps-lg-0
+            .ssu.p-lg-2.p-3.pe-lg-4.ps-lg-4
+              h4.mb-0 Criterios normativos para la selección de equipos eléctricos (RETIQ)
+        .titulo-caja.d-lg-none.mb-0
+          h4.mb-0 Criterios normativos para la selección de equipos eléctricos (RETIQ)
         br
         br
         p.mb-0 La eficiencia energética (EE) en Colombia no es solo una opción de ahorro, sino una obligación legal al momento de adquirir o comercializar ciertos equipos. Para garantizar la entrada al mercado solo de productos que cumplen con estándares mínimos de rendimiento, el Ministerio de Minas y Energía ha establecido el Reglamento Técnico de Etiquetado (RETIQ).
@@ -374,7 +378,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4
         .titulo-sexto.mb-4
-          h5 Figura 12. 
+          h5 Figura 11. 
           | Etiquetado energético
         img.mb-2(src='@/assets/curso/tema2/27.png', alt='Etiqueta de eficiencia energética que muestra el consumo de energía, el nivel de eficiencia y la clasificación energética de un motor monofásico en Colombia.')
         figcaption Nota. Adaptado de Requisitos de la etiqueta, por Ministerio de Minas y Energía, 2016.
